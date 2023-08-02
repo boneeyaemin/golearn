@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700;800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply  text-lg font-pragraph;
+    }
+    h1, h2, h3, h4, h5, h6{
+        @apply font-semibold font-heading;
+    }
+
+    h1{
+        @apply md:text-5xl text-4xl;
+    }
+    h2{
+        @apply text-4xl;
+    }
+    h3{
+        @apply text-3xl;
+    }
+    h4{
+        @apply text-2xl;
+    }
+    h5{
+        @apply text-xl;
+    }
+    h6{
+        @apply text-lg;
+    }
+}
+
+
+
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.header-menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.h-menu ul {
+	display: flex;
+	column-gap: 20px;
+}
+.menu-trigger span {
+	display: block;
+	background: black;
+	border-bottom: 2px solid;
+	width: 25px;
+}
+.menu-trigger {
+	display: none;
+	flex-direction: column;
+	row-gap: 5px;
+    cursor: pointer;
+}
+.mobile-menu{
+    display: none;
+}
+.mobile-menu {
+	padding-left: 100px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.mobile-menu ul {
+	display: flex;
+	flex-direction: column;
+	gap: 13px;
+}
+.header-wrapper.header-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

@@ -8,7 +8,7 @@
 
 @layer base{
     body{
-        @apply  text-lg font-pragraph;
+        @apply  text-lg font-pragraph text-w-paragraphy;
     }
     h1, h2, h3, h4, h5, h6{
         @apply font-semibold font-heading;
@@ -81,4 +81,79 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+/*                                   video button / icon */
+
+.video-icon {
+	height: 50px;
+	width: 50px;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	position: relative;
+}
+
+@keyframes ripple {
+	0% {
+	  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2), 0 0 0 40px rgba(255, 255, 255, 0.2);
+	}
+	100% {
+	  box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.2), 0 0 0 80px rgba(255, 255, 255, 0);
+	}
+  }
+
+/* Add an animation to the button with the infinite keyword */
+.ripple::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  animation: ripple 2s ease-out infinite;
+}
+
+/*    end video icon */
+
+li::before {
+	content: "";
+	background: url(/assets/img/tik.svg) no-repeat scroll center / contain;
+	height: 19px;
+	width: 22px;
+	position: absolute;
+	left: 2px;
+	top: 3px;
+	color: var(--primary);
+}
+li {
+	position: relative;
+	padding-left: 30px;
+}
+.office {
+	position: relative;
+	padding-left: 110px;
+}
+.office::before {
+	content: "";
+	height: 90px;
+	width: 90px;
+	position: absolute;
+	left: 0px;
+	top: -2px;
+}
+
+.gp .featcher .office:nth-child(1)::before {
+	background: url(/assets/img/office.png) no-repeat scroll center / contain;
+}
+.gp .featcher .office:nth-child(2)::before {
+	background: url(/assets/img/two.png) no-repeat scroll center / contain;
+}
+.gp .featcher .office:nth-child(3)::before {
+	background: url(/assets/img/three.png) no-repeat scroll center / contain;
+}
+.gp .featcher .office:nth-child(4)::before {
+	background: url(/assets/img/four.png) no-repeat scroll center / contain;
 }

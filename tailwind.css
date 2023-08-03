@@ -167,5 +167,59 @@ a {
 	border-radius: 50%;
 	padding: 10px;
 }
+.pink{
+	padding-right: 30px;
+}
+
+
+
+/* mobile manu */
+
+
+.h-menu li a{
+	@apply   hover:text-primary;
+}
+.about-font-img{
+	@apply max-w-[434px] w-full h-full right-0 ;
+}
+.header-menu .h-menu{
+	@apply flex gap-x-16  items-center ;
+}
+.header-menu .h-menu ul {
+	@apply  block md:flex gap-x-10 ;
+}
+.mobile-menu .h-menu li a{
+	@apply  text-white hover:text-black font-semibold;
+}
+.mobile-menu {
+	@apply rounded-l-md fixed right-0 bg-primary w-52 h-64 py-3 px-5;
+}
+.mobile-menu .h-menu ul li {
+	@apply py-2 border-b-2 border-gray-500;
+}
+
+/*  */
+
+.menutrigger span {
+	@apply h-[2px] w-[30px] bg-black block;
+}
+.menutrigger span:nth-child(2) {
+	margin: 6px 0;
+}
+.menutrigger.active span:nth-child(2) {
+	opacity: 0;
+}
+.menutrigger.active span:nth-child(3) {
+	transform: rotate(-45deg) translateY(-7px) translateX(4px);
+}
+.menutrigger.active span:nth-child(1) {
+	transform: rotate(45deg) translateY(7px) translateX(4px);
+}
+.header-menu {
+	@apply hidden md:block;
+}
+.mobile-menu {
+	z-index: 20;
+}
 
 

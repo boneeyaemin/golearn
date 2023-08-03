@@ -118,9 +118,9 @@ a {
 
 /*    end video icon */
 
-li::before {
+.ttik::before {
 	content: "";
-	background: url(/assets/img/tik.svg) no-repeat scroll center / contain;
+	background: url(assets/img/tik.svg) no-repeat scroll center / contain;
 	height: 19px;
 	width: 22px;
 	position: absolute;
@@ -128,32 +128,44 @@ li::before {
 	top: 3px;
 	color: var(--primary);
 }
-li {
+.ttik {
 	position: relative;
 	padding-left: 30px;
 }
-.office {
+
+.bdr{
 	position: relative;
-	padding-left: 110px;
 }
-.office::before {
+* .bdr::after {
 	content: "";
-	height: 90px;
-	width: 90px;
+	height: 22px;
+	width: 1px;
 	position: absolute;
-	left: 0px;
-	top: -2px;
+	top: 3px;
+	right: 0;
+	background: #101921;
+} 
+                            /* owl-carousel */
+.courses-sec h2{
+    @apply font-normal text-white ;
+}
+.courses-sec strong{
+    @apply font-bold text-white;
+}
+.card-love i{
+    font-size: 20px;
 }
 
-.gp .featcher .office:nth-child(1)::before {
-	background: url(/assets/img/office.png) no-repeat scroll center / contain;
+/* owl-carousel */
+
+
+.slider1 button {
+	color: white;
+	height: 50px;
+	width: 50px;
+	background: #172430;
+	border-radius: 50%;
+	padding: 10px;
 }
-.gp .featcher .office:nth-child(2)::before {
-	background: url(/assets/img/two.png) no-repeat scroll center / contain;
-}
-.gp .featcher .office:nth-child(3)::before {
-	background: url(/assets/img/three.png) no-repeat scroll center / contain;
-}
-.gp .featcher .office:nth-child(4)::before {
-	background: url(/assets/img/four.png) no-repeat scroll center / contain;
-}
+
+

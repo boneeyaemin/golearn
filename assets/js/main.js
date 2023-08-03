@@ -18,14 +18,14 @@ $(document).ready(function(){
             fixedContentPos: false
         });
 
-        
+
                     //  owl-carousel owl-carousel
         $(".slider1").owlCarousel({
             items:3,
             nav:true,
             dots:true,
-            autoplay: false,
-            margin:30,
+            autoplay: true,
+            margin:15,
             loop: true,
             smartSpeed: 600,
             responsiveClass:true,

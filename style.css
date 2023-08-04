@@ -691,6 +691,10 @@ h6{
   left: 20%;
 }
 
+.left-\[40\%\]{
+  left: 40%;
+}
+
 .left-\[50\%\]{
   left: 50%;
 }
@@ -743,8 +747,16 @@ h6{
   top: 0.75rem;
 }
 
+.top-4{
+  top: 1rem;
+}
+
 .top-9{
   top: 2.25rem;
+}
+
+.top-\[-20px\]{
+  top: -20px;
 }
 
 .top-\[11\%\]{
@@ -767,6 +779,10 @@ h6{
   top: 60px;
 }
 
+.top-\[60\%\]{
+  top: 60%;
+}
+
 .-z-10{
   z-index: -10;
 }
@@ -779,12 +795,12 @@ h6{
   z-index: 20;
 }
 
-.z-50{
-  z-index: 50;
-}
-
 .z-30{
   z-index: 30;
+}
+
+.z-50{
+  z-index: 50;
 }
 
 .order-1{
@@ -948,10 +964,6 @@ h6{
   width: 30px;
 }
 
-.w-\[436px\]{
-  width: 436px;
-}
-
 .w-\[76px\]{
   width: 76px;
 }
@@ -980,8 +992,16 @@ h6{
   max-width: 320px;
 }
 
+.max-w-\[350px\]{
+  max-width: 350px;
+}
+
 .max-w-\[370px\]{
   max-width: 370px;
+}
+
+.max-w-\[427px\]{
+  max-width: 427px;
 }
 
 .max-w-\[434px\]{
@@ -998,6 +1018,10 @@ h6{
 
 .max-w-\[760px\]{
   max-width: 760px;
+}
+
+.max-w-lg{
+  max-width: 32rem;
 }
 
 .max-w-sm{
@@ -1058,6 +1082,10 @@ h6{
 
 .grid-cols-5{
   grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.grid-cols-6{
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -1180,6 +1208,10 @@ h6{
   border-right-width: 2px;
 }
 
+.border-t{
+  border-top-width: 1px;
+}
+
 .border-\[\#E0E0E0\]{
   --tw-border-opacity: 1;
   border-color: rgb(224 224 224 / var(--tw-border-opacity));
@@ -1230,6 +1262,11 @@ h6{
   background-color: rgb(247 56 89 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#FAF5F8\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 245 248 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#FEEBEE\]{
   --tw-bg-opacity: 1;
   background-color: rgb(254 235 238 / var(--tw-bg-opacity));
@@ -1269,6 +1306,15 @@ h6{
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
+.bg-manu{
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 25 33 / var(--tw-bg-opacity));
+}
+
+.bg-manu\/40{
+  background-color: rgb(16 25 33 / 0.4);
+}
+
 .bg-primary{
   --tw-bg-opacity: 1;
   background-color: rgb(247 56 89 / var(--tw-bg-opacity));
@@ -1292,27 +1338,6 @@ h6{
   background-color: rgb(255 255 255 / 0.2);
 }
 
-.bg-manu\/80{
-  background-color: rgb(16 25 33 / 0.8);
-}
-
-.bg-manu{
-  --tw-bg-opacity: 1;
-  background-color: rgb(16 25 33 / var(--tw-bg-opacity));
-}
-
-.bg-manu\/60{
-  background-color: rgb(16 25 33 / 0.6);
-}
-
-.bg-manu\/20{
-  background-color: rgb(16 25 33 / 0.2);
-}
-
-.bg-manu\/40{
-  background-color: rgb(16 25 33 / 0.4);
-}
-
 .bg-banner{
   background-image: url('assets/img/banner-photo.png');
 }
@@ -1334,6 +1359,11 @@ h6{
   padding: 1.25rem;
 }
 
+.px-0{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -1347,6 +1377,11 @@ h6{
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .px-3{
@@ -1392,6 +1427,11 @@ h6{
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-11{
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
 }
 
 .py-12{
@@ -1456,12 +1496,20 @@ h6{
   padding-bottom: 7rem;
 }
 
+.pl-28{
+  padding-left: 7rem;
+}
+
 .pr-2{
   padding-right: 0.5rem;
 }
 
 .pr-24{
   padding-right: 6rem;
+}
+
+.pr-32{
+  padding-right: 8rem;
 }
 
 .pt-20{
@@ -1635,6 +1683,10 @@ h6{
 
 .opacity-90{
   opacity: 0.9;
+}
+
+.opacity-40{
+  opacity: 0.4;
 }
 
 .shadow-2xl{
@@ -1978,16 +2030,12 @@ a {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.group:hover .group-hover\:-z-10{
-  z-index: -10;
-}
-
 .group:hover .group-hover\:flex{
   display: flex;
 }
 
-.group:hover .group-hover\:bg-\[\#F73859\]\/70{
-  background-color: rgb(247 56 89 / 0.7);
+.group:hover .group-hover\:bg-\[\#F73859\]\/40{
+  background-color: rgb(247 56 89 / 0.4);
 }
 
 .group:hover .group-hover\:text-\[\#F73859\]{
@@ -2056,10 +2104,6 @@ a {
 
   .lg\:mt-0{
     margin-top: 0px;
-  }
-
-  .lg\:flex{
-    display: flex;
   }
 
   .lg\:grid-cols-2{

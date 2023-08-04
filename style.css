@@ -655,6 +655,10 @@ h6{
   left: -15rem;
 }
 
+.-top-2{
+  top: -0.5rem;
+}
+
 .bottom-0{
   bottom: 0px;
 }
@@ -703,6 +707,10 @@ h6{
   right: 0px;
 }
 
+.right-2{
+  right: 0.5rem;
+}
+
 .right-3{
   right: 0.75rem;
 }
@@ -721,6 +729,10 @@ h6{
 
 .top-0{
   top: 0px;
+}
+
+.top-2{
+  top: 0.5rem;
 }
 
 .top-20{
@@ -771,6 +783,10 @@ h6{
   z-index: 50;
 }
 
+.z-30{
+  z-index: 30;
+}
+
 .order-1{
   order: 1;
 }
@@ -806,6 +822,10 @@ h6{
 
 .mt-4{
   margin-top: 1rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
 }
 
 .block{
@@ -948,8 +968,16 @@ h6{
   max-width: 48rem;
 }
 
+.max-w-4xl{
+  max-width: 56rem;
+}
+
 .max-w-\[300\]{
   max-width: 300;
+}
+
+.max-w-\[320px\]{
+  max-width: 320px;
 }
 
 .max-w-\[370px\]{
@@ -958,6 +986,10 @@ h6{
 
 .max-w-\[434px\]{
   max-width: 434px;
+}
+
+.max-w-\[435px\]{
+  max-width: 435px;
 }
 
 .max-w-\[600px\]{
@@ -1260,6 +1292,27 @@ h6{
   background-color: rgb(255 255 255 / 0.2);
 }
 
+.bg-manu\/80{
+  background-color: rgb(16 25 33 / 0.8);
+}
+
+.bg-manu{
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 25 33 / var(--tw-bg-opacity));
+}
+
+.bg-manu\/60{
+  background-color: rgb(16 25 33 / 0.6);
+}
+
+.bg-manu\/20{
+  background-color: rgb(16 25 33 / 0.2);
+}
+
+.bg-manu\/40{
+  background-color: rgb(16 25 33 / 0.4);
+}
+
 .bg-banner{
   background-image: url('assets/img/banner-photo.png');
 }
@@ -1279,6 +1332,11 @@ h6{
 
 .p-5{
   padding: 1.25rem;
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-12{
@@ -1306,9 +1364,19 @@ h6{
   padding-right: 1.25rem;
 }
 
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .px-7{
   padding-left: 1.75rem;
   padding-right: 1.75rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-0{
@@ -1324,6 +1392,11 @@ h6{
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .py-16{
@@ -1349,6 +1422,11 @@ h6{
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .py-6{
@@ -1380,6 +1458,10 @@ h6{
 
 .pr-2{
   padding-right: 0.5rem;
+}
+
+.pr-24{
+  padding-right: 6rem;
 }
 
 .pt-20{
@@ -1896,6 +1978,10 @@ a {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.group:hover .group-hover\:-z-10{
+  z-index: -10;
+}
+
 .group:hover .group-hover\:flex{
   display: flex;
 }
@@ -1929,6 +2015,10 @@ a {
 }
 
 @media (min-width: 767px){
+  .md\:mt-8{
+    margin-top: 2rem;
+  }
+
   .md\:block{
     display: block;
   }

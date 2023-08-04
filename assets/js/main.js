@@ -24,7 +24,7 @@ $(document).ready(function(){
             items:3,
             nav:true,
             dots:true,
-            autoplay: true,
+            autoplay: false,
             margin:15,
             loop: true,
             smartSpeed: 600,
@@ -65,6 +65,21 @@ $(document).ready(function(){
             autoplay: true,
             loop: true,
             smartSpeed: 600,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:2,
+                    nav:true
+                },
+                767:{
+                    items:3,
+                    nav:false
+                },
+                991:{
+                    items:5,
+                    nav:false
+                },
+            },
         });
 
 

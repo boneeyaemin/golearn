@@ -58,5 +58,14 @@ $(document).ready(function(){
         $('body').toggleClass('overflow-hidden');
         });
 
+        // 
+        $(".slider2").owlCarousel({
+            items:5,
+            dots:true,
+            autoplay: true,
+            loop: true,
+            smartSpeed: 600,
+        });
+
 
 });

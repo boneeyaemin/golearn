@@ -219,4 +219,19 @@ a {
 	z-index: 20;
 }
 
+/* other */
+.slider2 .owl-dots {
+	position: absolute;
+}
+.slider2 .owl-dots {
+	position: absolute;
+    @apply absolute left-1/2 -translate-x-1/2 -bottom-[53px];
+}
+.slider2 .owl-dot {
+    @apply !bg-black w-2 h-2 rounded-full mx-[6px];
+}
+.slider2 .owl-dot.active {
+	@apply !bg-primary
+}
+
 

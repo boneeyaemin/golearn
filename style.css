@@ -868,6 +868,26 @@ h6{
   margin-top: 2rem;
 }
 
+.mb-20{
+  margin-bottom: 5rem;
+}
+
+.mb-44{
+  margin-bottom: 11rem;
+}
+
+.mb-32{
+  margin-bottom: 8rem;
+}
+
+.mb-0{
+  margin-bottom: 0px;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
 .block{
   display: block;
 }
@@ -1571,6 +1591,10 @@ h6{
   padding-bottom: 7rem;
 }
 
+.pb-40{
+  padding-bottom: 10rem;
+}
+
 .pl-12{
   padding-left: 3rem;
 }
@@ -2126,10 +2150,6 @@ a {
   background-color: rgb(247 56 89 / var(--tw-bg-opacity)) !important;
 }
 
-.hover\:border-b-2:hover{
-  border-bottom-width: 2px;
-}
-
 .hover\:border-primary:hover{
   --tw-border-opacity: 1;
   border-color: rgb(247 56 89 / var(--tw-border-opacity));
@@ -2175,6 +2195,42 @@ a {
 }
 
 @media (min-width: 575px){
+  .sm\:absolute{
+    position: absolute;
+  }
+
+  .sm\:right-0{
+    right: 0px;
+  }
+
+  .sm\:top-\[-20\]{
+    top: -20;
+  }
+
+  .sm\:top-20{
+    top: 5rem;
+  }
+
+  .sm\:mb-0{
+    margin-bottom: 0px;
+  }
+
+  .sm\:mb-5{
+    margin-bottom: 1.25rem;
+  }
+
+  .sm\:mb-10{
+    margin-bottom: 2.5rem;
+  }
+
+  .sm\:mb-32{
+    margin-bottom: 8rem;
+  }
+
+  .sm\:block{
+    display: block;
+  }
+
   .sm\:flex{
     display: flex;
   }
@@ -2191,6 +2247,10 @@ a {
 @media (min-width: 767px){
   .md\:mt-8{
     margin-top: 2rem;
+  }
+
+  .md\:mb-0{
+    margin-bottom: 0px;
   }
 
   .md\:block{
@@ -2225,27 +2285,9 @@ a {
     gap: 2.5rem;
   }
 
-  .md\:gap-1{
-    gap: 0.25rem;
-  }
-
   .md\:text-5xl{
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .md\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
-  .md\:text-xs{
-    font-size: 0.75rem;
-    line-height: 1rem;
-  }
-
-  .md\:text-\[10px\]{
-    font-size: 10px;
   }
 
   .md\:opacity-80{
@@ -2283,19 +2325,26 @@ a {
     padding-bottom: 0px;
   }
 
-  .lg\:py-7{
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
-  }
-
   .lg\:opacity-50{
     opacity: 0.5;
   }
 }
 
 @media (min-width: 1199px){
+  .xl\:absolute{
+    position: absolute;
+  }
+
   .xl\:order-1{
     order: 1;
+  }
+
+  .xl\:block{
+    display: block;
+  }
+
+  .xl\:max-w-sm{
+    max-width: 24rem;
   }
 
   .xl\:grid-cols-2{

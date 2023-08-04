@@ -65,14 +65,15 @@ $(document).ready(function(){
             autoplay: true,
             loop: true,
             smartSpeed: 600,
+            margin:30,
             responsiveClass:true,
             responsive:{
                 0:{
-                    items:2,
+                    items:1,
                     nav:true
                 },
                 767:{
-                    items:3,
+                    items:2,
                     nav:false
                 },
                 991:{

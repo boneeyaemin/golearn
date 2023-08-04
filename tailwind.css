@@ -155,6 +155,9 @@ a {
 .card-love i{
     font-size: 20px;
 }
+.owl-nav {
+	display: none;
+}
 
 /* owl-carousel */
 

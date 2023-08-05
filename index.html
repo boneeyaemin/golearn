@@ -37,9 +37,9 @@
                     </div>
                 </div>
                 <div class="sm:flex hidden items-center gap-3 justify-center">
-                    <a class="bdr text-manu pr-2  text-manu" href="">Login</a>
-                    <div class="gap-2 bdr flex">
-                        <a class="text-manu" href="">Register</a>
+                    <a class="bdr font-heading font-semibold text-lg  pr-2  text-manu" href="">Login</a>
+                    <div class="gap-[7px] bdr flex">
+                        <a class="text-manu font-heading font-semibold text-lg" href="">Register</a>
                         <a class="px-2 text-xl hover:text-primary  text-icon" href="">
                             <i class="fa-solid fa-cart-shopping "></i>
                         </a>
@@ -47,7 +47,13 @@
                             <i class="fa-solid fa-heart"></i>
                         </a>
                     </div>
-                    <a class="text-manu" href="">English </a>
+                    <select class="bg-transparent font-heading font-semibold text-lg">
+                        <option>English</option>
+                        <option>bangla</option>    
+                        <option>hindi</option>
+                        <option>arabic</option>
+                        <option>tamil</option>
+                    </select>
                 </div>
             </div>
         </div>
@@ -73,11 +79,23 @@
                 <div class="header-menu">
                     <div class="h-menu">
                         <ul >
-                            <li ><a href="">Home</a></li>
-                            <li ><a href="">About</a></li>
-                            <li ><a href="">Services</a></li>
-                            <li ><a href="">Blog</a></li>
-                            <li ><a href="">Contact</a></li>
+                            <li ><select class="bg-transparent font-heading font-semibold text-lg">
+                                <option>Home</option>
+                                <option>bangla</option>
+                                <option>hindi</option>
+                                <option>arabic</option>
+                                <option>tamil</option>
+                            </select></li>
+                            <li class=" font-heading font-semibold text-lg" ><a href="">About</a></li>
+                            <li class=" font-heading font-semibold text-lg" ><a href="">Services</a></li>
+                            <li class=" font-heading font-semibold text-lg" ><select class="bg-transparent">
+                                <option>Page</option>
+                                <option>bangla</option> 
+                                <option>hindi</option>
+                                <option>arabic</option>
+                                <option>tamil</option>
+                            </select></li>
+                            <li class=" font-heading font-semibold text-lg" ><a href="">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -103,11 +121,11 @@
         <div class="bg-black/80 ">
             <div class="container">
                 <div class="grid md:grid-cols-2 items-center justify-center py-10">
-                    <div class="text-white gap-5 flex flex-col ">
+                    <div class="text-white gap-5 flex flex-col pr-8">
                         <div class="py-3">
                             <span class="px-3 bg-[#323B45] rounded-3xl py-1 ">200+ Courses </span>
                         </div>
-                        <h1 class="text">Online <span class="font-extrabold">Courses </span> From The World top <span class="font-extrabold">Instructor</span></h1>
+                        <h1 class="text-[64px]">Online <span class="font-extrabold">Courses </span> From The World top <span class="font-extrabold">Instructor</span></h1>
                         <p class=" font-pragraph text-[#E0E0E0] ">Exerci tation ullamcorper suscipit lobortis aliquip example ea commodo consequat lorem ipsum duis lorem ipsum dolor sit amet dolore. </p>
                         <div class="flex gap-12">
                             <a class="px-4 py-3 opacity-100 rounded-3xl bg-primary inline-block" href="">
@@ -139,9 +157,9 @@
     <div class="pt-20 pb-40">
         <div class="container">
             <div class="grid lg:grid-cols-2 justify-center items-center">
-                <div class="flex flex-col gap-4 max-w-[600px] relative order-3 lg:order-1 lg:mt-0">
+                <div class="flex flex-col gap-4 max-w-[600px] relative order-3 lg:order-1 lg:mt-0 md:pr-14">
                     <span class="text-lg font-medium text-primary">About Us</span>
-                    <h1>World-class <span class="text-primary font-bold">Training</span> and Online Courses Developed by <span class="text-primary font-bold">top Class</span> <span class="text-primary font-bold">Instructor.</span></h1>
+                    <h1 class="font-normal">World-class <span class="text-primary font-extrabold">Training</span> and Online Courses Developed by <span class="text-primary font-extrabold">top Class</span> <span class="text-primary font-extrabold">Instructor.</span></h1>
                     <p>World-class Training and Online Courses Developed by top Class Instructor.</p>
                     <ul class="flex flex-col gap-2">
                         <li class="text-base ttik">Get access to 230+ of our top courses</li>
@@ -156,14 +174,13 @@
                     </div>
                     <img class="absolute -bottom-4 left-[60%]" src="assets/img/tir.png" alt="">
                 </div>
-                <div class="relative max-w-3xl order-2 sm:mb-32 md:mb-0">
+                <div class="relative max-w-3xl order-2 sm:mb-32 md:mb-0 md:pl-14">
                     <img class="sm:block hidden" src="assets/img/about-bg.png" alt="">
                     <div class="sm:absolute sm:top-20 sm:right-0">
-                        <div class="max-w-sm relative">
-                            <img class="w-full   max-w-[370px] " src="assets/img/first-right.png" alt="">
-                            <img class="w-full absolute -bottom-24 -left-60 -z-10 max-w-[300] md:block hidden" src="assets/img/secont-bottom.png" alt="">
+                        <div class="md:max-w-sm relative ">
+                            <img class="w-full object-cover  max-w-[370px] " src="assets/img/first-right.png" alt="">
+                            <img class="w-full object-cover absolute -bottom-24 -left-60 -z-10 max-w-[300] md:block hidden" src="assets/img/secont-bottom.png" alt="">
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -407,36 +424,67 @@
 
     <div class="py-20 relative">
         <div class="container">
-            <div class="grid xl:grid-cols-2  gap-14 items-center">
+            <div class="grid lg:grid-cols-2  gap-16 items-center">
                 <div class="flex flex-col gap-4 gp justify-center items-center xl:order-1 order-3">
                     <span class="">Features </span>
-                    <h1 class="">Why choose Us ? Let’s see Our
-                    <span class="text-primary font-bold">Main Features</span> </h1>
+                    <h1 class="text-[40px]">Why choose Us ? Let’s see Our
+                    <span class="text-primary font-extrabold">Main Features</span> </h1>
                     <p>Exerci tation ullamcorper suscipit lobortis aliquip ex ea commodo consequat duis autem vel eum iriure augue duis dolore. Exerci tation ullamcorper suscipit lobortis. nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure augue duis.</p>
-                    <div class="py-4 flex flex-col gap-5 featcher">
-                        <div class="flex gap-3">
-                            <img class="max-w-[100px]" src="assets/img/office.png" alt="">
+                    <div class="py-4 flex flex-col featcher">
+                        <div class="flex gap-3 justify-center items-center ">
+                            <svg class="inline-block" width="150" height="150" viewBox="0 0 81 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle opacity="0.07" cx="40.3203" cy="40.0415" r="40" fill="#F73859"/>
+                                <path d="M42.6122 55.9927C42.6122 57.2964 41.5554 58.3532 40.2517 58.3532C38.948 58.3532 37.8912 57.2964 37.8912 55.9927C37.8912 54.6889 38.948 53.6322 40.2517 53.6322C41.5554 53.6322 42.6122 54.6889 42.6122 55.9927ZM31.2278 31.4706C30.8712 30.7656 30.0107 30.4831 29.3054 30.84C26.7404 32.1378 24.4154 33.8948 22.3958 36.0619C21.8571 36.64 21.889 37.5453 22.4668 38.084C22.7426 38.3408 23.0927 38.4679 23.4419 38.4679C23.825 38.4679 24.207 38.3151 24.4889 38.0128C26.2783 36.0926 28.3336 34.5383 30.5971 33.3929C31.3024 33.0361 31.5846 32.1755 31.2278 31.4706ZM58.2509 36.0619C56.1704 33.8299 53.7688 32.0344 51.1127 30.726C50.4039 30.377 49.5464 30.6684 49.1971 31.3773C48.8481 32.0859 49.1395 32.9437 49.8484 33.2926C52.1921 34.4475 54.3148 36.0354 56.1578 38.0128C56.4395 38.3151 56.8217 38.4679 57.2048 38.4679C57.5541 38.4679 57.9042 38.3408 58.1797 38.084C58.7575 37.5453 58.7893 36.64 58.2509 36.0619ZM40.3229 36.54C35.6238 36.54 31.1224 38.4685 27.6482 41.9701C27.0916 42.5309 27.0953 43.4367 27.656 43.993C27.9349 44.2699 28.2993 44.4082 28.6636 44.4082C29.0316 44.4082 29.3996 44.2671 29.679 43.9852C32.6123 41.0293 36.3924 39.4012 40.3229 39.4012C44.2526 39.4012 48.0328 41.029 50.9669 43.9855C51.5235 44.546 52.4293 44.5496 52.9901 43.993C53.5509 43.4364 53.5543 42.5306 52.9977 41.9698C49.5223 38.4682 45.021 36.54 40.3229 36.54ZM40.3098 44.9056C40.3095 44.9056 40.309 44.9056 40.3087 44.9056H40.2056C40.205 44.9056 40.205 44.9056 40.2045 44.9056C37.7708 44.9056 35.1027 46.0512 33.2418 47.895C32.6804 48.4511 32.6763 49.3569 33.2323 49.9183C33.512 50.2005 33.8802 50.3418 34.2485 50.3418C34.6126 50.3418 34.9764 50.2038 35.2555 49.9275C36.5805 48.6148 38.523 47.7668 40.2048 47.7668H40.2053H40.309H40.3095C41.991 47.7668 43.9338 48.6148 45.2588 49.9275C45.8198 50.4835 46.7257 50.4796 47.2817 49.9183C47.8377 49.3569 47.8336 48.4511 47.2725 47.895C45.4113 46.0509 42.7435 44.9056 40.3098 44.9056ZM34.6623 33.3278C34.9415 33.6073 35.3078 33.747 35.6738 33.747C36.0401 33.747 36.4061 33.6073 36.6853 33.3278L40.2517 29.7617L43.8181 33.3278C44.0973 33.6073 44.4636 33.747 44.8296 33.747C45.1959 33.747 45.5619 33.6073 45.8411 33.3278C46.3999 32.7693 46.3999 31.8634 45.8411 31.3049L42.2749 27.7385L45.8411 24.172C46.3999 23.6135 46.3999 22.7076 45.8411 22.1491C45.2825 21.5903 44.3767 21.5903 43.8181 22.1491L40.2517 25.7152L36.6853 22.1491C36.1267 21.5903 35.2209 21.5903 34.6623 22.1491C34.1035 22.7076 34.1035 23.6135 34.6623 24.172L38.2285 27.7385L34.6623 31.3049C34.1035 31.8634 34.1035 32.7693 34.6623 33.3278Z" fill="#F73859"/>
+                                </svg>
+                                <div class="office">
+                                <h5>Offline Mode</h5>
+                                <p>Exerci tation ullamcorper suscipit lobortis aliquip example ea . commodo consequat duis .</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-3 justify-center items-center">
+                            <svg class="inline-block" width="150" height="150" viewBox="0 0 81 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle opacity="0.07" cx="40.9883" cy="40.0415" r="40" fill="#F73859"/>
+                                <path d="M56.49 26.4093L56.2596 22.5169C56.2185 21.8751 55.6836 21.3813 55.0335 21.4224C54.3916 21.4636 53.9061 22.0067 53.939 22.6486L54.0048 23.7925C50.6473 21.2826 46.5738 19.9165 42.2947 19.9165C37.0609 19.9165 32.1398 21.9573 28.4449 25.6523C27.9923 26.1049 27.9923 26.8373 28.4449 27.2981C29.0703 27.9235 29.8603 27.5285 30.0908 27.2981C33.3495 24.0393 37.6863 22.2371 42.3029 22.2371C45.9731 22.2371 49.4623 23.3728 52.3754 25.4794L51.3715 25.5453C50.7296 25.5864 50.2441 26.1295 50.277 26.7714C50.3099 27.3886 50.8283 27.8659 51.4373 27.8659C51.462 27.8659 55.3955 27.6355 55.3955 27.6355C56.0374 27.5943 56.5229 27.0512 56.49 26.4093Z" fill="#F73859"/>
+                                <path d="M37.8269 56.1836C29.5484 53.97 24.2981 46.0617 25.1211 37.7996L25.6724 38.6308C25.8946 38.9682 26.6023 39.3714 27.2771 38.9599C27.8202 38.6225 27.9601 37.8901 27.6063 37.3552L25.4667 34.0965C25.2939 33.8414 25.0305 33.6603 24.7343 33.5945C24.4298 33.5369 24.1171 33.5945 23.862 33.7591L20.6115 35.8987C20.0766 36.2525 19.9284 36.9685 20.2823 37.5034C20.6362 38.0383 21.3521 38.1864 21.887 37.8325L22.8498 37.1989C21.7224 46.7118 27.7215 55.8791 37.2262 58.422C37.325 58.4467 38.3536 58.5701 38.6499 57.5991C38.8391 56.9901 38.4524 56.3482 37.8269 56.1836Z" fill="#F73859"/>
+                                <path d="M61.2252 34.4328C61.0607 33.8156 60.4188 33.4453 59.8016 33.6099C59.1844 33.7745 58.8141 34.4164 58.9787 35.0336C61.1923 43.3121 56.979 51.8211 49.4081 55.2362L49.8525 54.3392C50.1405 53.7632 49.9101 53.072 49.3341 52.7839C48.758 52.4959 48.0585 52.7263 47.7787 53.3024L46.0342 56.7833C45.7461 57.3594 45.9765 58.0506 46.5526 58.3386L50.0335 60.0832C50.1981 60.1655 51.128 60.3713 51.5889 59.5648C51.9098 59.0052 51.6465 58.2975 51.0704 58.0095L50.0253 57.4828C58.8306 53.7138 63.7681 43.9458 61.2252 34.4328Z" fill="#F73859"/>
+                                <path d="M36.9378 43.673L39.028 41.4923C39.8427 40.6447 41.1594 39.4432 41.1594 37.6904C41.1594 36.5959 40.32 34.1519 37.3986 34.1519C35.1767 34.1519 33.6955 35.8635 33.1523 36.7029L35.2179 37.9291C35.868 36.8922 36.5592 36.3737 37.2834 36.3737C38.6906 36.3737 38.6412 37.3448 38.6412 37.7316C38.6412 38.752 37.4233 39.8958 36.7403 40.5953L33.3498 44.068V45.9854H41.505V43.673H36.9378Z" fill="#F73859"/>
+                                <path d="M50.1304 40.9834V38.9672H47.6534V40.9834H46.0158L49.9329 34.4165H47.1267L43.0039 41.2467V43.2135H47.6534V45.9785H50.1304V43.2135H51.4388V40.9834H50.1304Z" fill="#F73859"/>
+                                <path d="M54.2512 32.9271C53.8562 32.9271 53.5023 33.0834 53.1896 33.4044V31.561H52.1445V36.729H53.1896V34.7046C53.1896 34.4083 53.2637 33.8158 53.9714 33.8158C54.3911 33.8158 54.6051 34.1039 54.6051 34.6799V36.729H55.6502V34.4577C55.6502 33.7171 55.1893 32.9271 54.2512 32.9271Z" fill="#F73859"/>
+                                </svg>
+                                
                             <div class="office">
                                 <h5>Offline Mode</h5>
                                 <p>Exerci tation ullamcorper suscipit lobortis aliquip example ea . commodo consequat duis .</p>
                             </div>
                         </div>
-                        <div class="flex gap-3">
-                            <img src="assets/img/two.png" alt="">
+                        <div class="flex gap-3 justify-center items-center">
+                            <svg class="inline-block" width="150" height="150" viewBox="0 0 81 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle opacity="0.07" cx="40.3203" cy="40.0415" r="40" fill="#F73859"/>
+                                <path d="M56.1765 24.1235H24.464C23.058 24.1235 21.9141 25.2675 21.9141 26.6734V48.1885C21.9141 49.5945 23.058 50.7384 24.464 50.7384H42.956L42.3977 54.1437C42.2926 54.7846 42.5046 55.3653 42.9649 55.6966C43.4251 56.028 44.0426 56.0457 44.6174 55.7428L48.6071 53.6429C48.7184 53.5857 49.0251 53.5857 49.1364 53.6429L53.1261 55.7428C53.399 55.8865 53.6817 55.958 53.9526 55.958C54.2521 55.958 54.5371 55.8705 54.7787 55.6965C55.2389 55.3651 55.4509 54.7843 55.346 54.1434L54.7878 50.7383H56.1767C57.5826 50.7383 58.7266 49.5943 58.7266 48.1884V26.6734C58.7264 25.2674 57.5825 24.1235 56.1765 24.1235ZM48.8718 46.3678C46.4214 46.3678 44.4277 44.374 44.4277 41.9236C44.4277 39.4732 46.4214 37.4795 48.8718 37.4795C51.3222 37.4795 53.316 39.4732 53.316 41.9236C53.316 44.374 51.3222 46.3678 48.8718 46.3678ZM50.1545 51.7089C49.4112 51.3175 48.3323 51.3175 47.5891 51.7089L44.7685 53.1935L45.6652 47.7237C46.6163 48.2516 47.7094 48.5532 48.872 48.5532C50.0346 48.5532 51.1275 48.2515 52.0787 47.7237L52.4281 49.8562C52.429 49.8597 52.4293 49.8635 52.43 49.867L52.9754 53.1936L50.1545 51.7089ZM56.5408 48.1885C56.5408 48.386 56.3739 48.5528 56.1765 48.5528H54.4293L54.0302 46.1182C54.0286 46.1085 54.026 46.0994 54.0241 46.0897C54.9472 44.9506 55.5017 43.5008 55.5017 41.9236C55.5017 38.2679 52.5277 35.2939 48.872 35.2939C45.2163 35.2939 42.2422 38.2679 42.2422 41.9236C42.2422 43.5008 42.7968 44.9503 43.7198 46.0897C43.718 46.0992 43.7153 46.1085 43.7137 46.118L43.3143 48.5547C43.3021 48.5543 43.2903 48.5528 43.2781 48.5528H24.464C24.2665 48.5528 24.0997 48.386 24.0997 48.1885V26.6734C24.0997 26.476 24.2665 26.3092 24.464 26.3092H56.1765C56.3739 26.3092 56.5408 26.476 56.5408 26.6734V48.1885Z" fill="#F73859"/>
+                                <path d="M52.3126 30.4126H27.542C26.9384 30.4126 26.4492 30.9017 26.4492 31.5054C26.4492 32.1091 26.9384 32.5982 27.542 32.5982H52.3126C52.9162 32.5982 53.4054 32.1091 53.4054 31.5054C53.4054 30.9017 52.9162 30.4126 52.3126 30.4126Z" fill="#F73859"/>
+                                <path d="M38.0331 36.3384H27.542C26.9384 36.3384 26.4492 36.8275 26.4492 37.4312C26.4492 38.0349 26.9384 38.524 27.542 38.524H38.0331C38.6368 38.524 39.1259 38.0349 39.1259 37.4312C39.1259 36.8275 38.6368 36.3384 38.0331 36.3384Z" fill="#F73859"/>
+                                </svg>
+                                
                             <div class="office">
                                 <h5>Offline Mode</h5>
                                 <p>Exerci tation ullamcorper suscipit lobortis aliquip example ea . commodo consequat duis .</p>
                             </div>
                         </div>
-                        <div class="flex gap-3">
-                            <img src="assets/img/three.png" alt="">
-                            <div class="office">
-                                <h5>Offline Mode</h5>
-                                <p>Exerci tation ullamcorper suscipit lobortis aliquip example ea . commodo consequat duis .</p>
-                            </div>
-                        </div>
-                        <div class="flex gap-3">
-                            <img src="assets/img/four.png" alt="">
+                        <div class="flex gap-3 justify-center items-center">
+                            <svg class="inline-block" width="150" height="150" viewBox="0 0 81 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle opacity="0.07" cx="40.3203" cy="40.0415" r="40" fill="#F73859"/>
+                                <path d="M27.9041 45.5234C27.6726 45.5234 27.4506 45.425 27.2869 45.2499C27.1232 45.0747 27.0312 44.8372 27.0312 44.5895V37.9276C27.0312 37.6799 27.1232 37.4423 27.2869 37.2672C27.4506 37.092 27.6726 36.9937 27.9041 36.9937C28.1356 36.9937 28.3576 37.092 28.5213 37.2672C28.685 37.4423 28.7769 37.6799 28.7769 37.9276V44.5895C28.7769 44.8372 28.685 45.0747 28.5213 45.2499C28.3576 45.425 28.1356 45.5234 27.9041 45.5234Z" fill="#F73859"/>
+                                <path d="M31.835 30.6479C31 30.6479 30.1838 30.3829 29.4895 29.8866C28.7953 29.3903 28.2542 28.6848 27.9346 27.8594C27.6151 27.034 27.5315 26.1258 27.6944 25.2496C27.8573 24.3734 28.2594 23.5685 28.8498 22.9368C29.4402 22.3051 30.1924 21.8749 31.0113 21.7006C31.8303 21.5263 32.6791 21.6157 33.4505 21.9576C34.2219 22.2995 34.8813 22.8785 35.3451 23.6213C35.809 24.3641 36.0566 25.2374 36.0566 26.1308C36.0554 27.3284 35.6102 28.4766 34.8188 29.3234C34.0273 30.1702 32.9542 30.6465 31.835 30.6479ZM31.835 23.4816C31.3453 23.4816 30.8665 23.637 30.4594 23.9281C30.0522 24.2192 29.7348 24.6329 29.5474 25.117C29.36 25.6011 29.311 26.1338 29.4066 26.6477C29.5021 27.1615 29.7379 27.6336 30.0842 28.0041C30.4304 28.3746 30.8716 28.6269 31.3519 28.7291C31.8322 28.8313 32.33 28.7789 32.7825 28.5784C33.2349 28.3779 33.6216 28.0383 33.8937 27.6026C34.1657 27.167 34.3109 26.6548 34.3109 26.1308C34.3102 25.4285 34.0491 24.7551 33.5849 24.2585C33.1207 23.7618 32.4914 23.4824 31.835 23.4816Z" fill="#F73859"/>
+                                <path d="M45.6 37.6353C45.4314 37.6354 45.2665 37.5833 45.125 37.4853C44.9835 37.3873 44.8716 37.2475 44.8027 37.0829C44.7339 36.9183 44.711 36.7359 44.737 36.5577C44.7629 36.3795 44.8365 36.2132 44.9488 36.0788L49.6913 30.3906C49.7677 30.2991 49.8602 30.2245 49.9636 30.1713C50.0669 30.118 50.179 30.087 50.2936 30.0801C50.4081 30.0732 50.5228 30.0905 50.631 30.131C50.7393 30.1715 50.8391 30.2344 50.9246 30.3162C51.0102 30.398 51.0798 30.497 51.1296 30.6075C51.1794 30.7181 51.2084 30.8381 51.2148 30.9606C51.2213 31.0831 51.2051 31.2058 51.1673 31.3217C51.1294 31.4375 51.0706 31.5443 50.9942 31.6358L46.2517 37.3209C46.17 37.4195 46.0696 37.4986 45.9573 37.5528C45.845 37.607 45.7232 37.6351 45.6 37.6353Z" fill="#F73859"/>
+                                <path d="M54.9216 46.0684H39.2609C39.0294 46.0684 38.8074 45.97 38.6437 45.7949C38.4801 45.6197 38.3881 45.3822 38.3881 45.1345C38.3881 44.8868 38.4801 44.6492 38.6437 44.4741C38.8074 44.299 39.0294 44.2006 39.2609 44.2006H54.9216C55.1531 44.2006 55.3751 44.1022 55.5388 43.927C55.7024 43.7519 55.7944 43.5143 55.7944 43.2666V24.437C55.7944 24.1893 55.7024 23.9518 55.5388 23.7766C55.3751 23.6015 55.1531 23.5031 54.9216 23.5031H37.7986C37.5671 23.5031 37.3451 23.4047 37.1814 23.2296C37.0177 23.0544 36.9258 22.8169 36.9258 22.5692C36.9258 22.3215 37.0177 22.0839 37.1814 21.9088C37.3451 21.7336 37.5671 21.6353 37.7986 21.6353H54.9216C55.616 21.6353 56.2821 21.9304 56.7731 22.4559C57.2642 22.9813 57.5401 23.6939 57.5401 24.437V43.2666C57.5401 44.0097 57.2642 44.7223 56.7731 45.2478C56.2821 45.7732 55.616 46.0684 54.9216 46.0684Z" fill="#F73859"/>
+                                <path d="M31.8371 58.4683H27.9041C27.6726 58.4683 27.4506 58.3699 27.2869 58.1948C27.1232 58.0196 27.0312 57.7821 27.0312 57.5344V44.5897C27.0312 44.342 27.1232 44.1044 27.2869 43.9293C27.4506 43.7542 27.6726 43.6558 27.9041 43.6558C28.1356 43.6558 28.3576 43.7542 28.5213 43.9293C28.685 44.1044 28.7769 44.342 28.7769 44.5897V56.6005H31.8371C32.0686 56.6005 32.2906 56.6989 32.4543 56.874C32.618 57.0492 32.71 57.2867 32.71 57.5344C32.71 57.7821 32.618 58.0196 32.4543 58.1948C32.2906 58.3699 32.0686 58.4683 31.8371 58.4683Z" fill="#F73859"/>
+                                <path d="M35.7708 58.4681H31.8372C31.6057 58.4681 31.3837 58.3697 31.22 58.1945C31.0563 58.0194 30.9643 57.7818 30.9643 57.5342V45.1342C30.9643 44.8865 31.0563 44.649 31.22 44.4738C31.3837 44.2987 31.6057 44.2003 31.8372 44.2003C32.0687 44.2003 32.2907 44.2987 32.4544 44.4738C32.6181 44.649 32.71 44.8865 32.71 45.1342V56.6002H34.898V38.943C34.8979 38.5554 35.0053 38.1765 35.2066 37.8542C35.4078 37.5319 35.6939 37.2807 36.0286 37.1324C36.3633 36.9841 36.7315 36.9454 37.0868 37.0211C37.4421 37.0968 37.7684 37.2835 38.0245 37.5577L39.3925 39.0196C39.4939 39.1285 39.6144 39.2149 39.7472 39.2737C39.8799 39.3324 40.0222 39.3625 40.1659 39.362H44.2281C44.3737 39.362 44.5178 39.331 44.6521 39.2706C44.7863 39.2103 44.9079 39.1219 45.0098 39.0106C45.1117 38.8993 45.1918 38.7674 45.2454 38.6226C45.299 38.4778 45.3251 38.323 45.3221 38.1672C45.3099 37.5353 44.8019 37.0216 44.1897 37.0216H40.9782C40.7468 37.0214 40.5249 36.9228 40.3614 36.7477L38.4825 34.7379C38.1416 34.371 37.736 34.0802 37.2893 33.8822C36.8427 33.6843 36.3637 33.5832 35.8802 33.5848H35.2029L33.8837 34.7584C33.309 35.2695 32.5853 35.5492 31.8381 35.5492C31.0908 35.5492 30.3671 35.2695 29.7924 34.7584L28.4721 33.5848H27.9041C27.0926 33.5858 26.3147 33.9311 25.7409 34.5451C25.167 35.159 24.8443 35.9915 24.8434 36.8597C24.8434 37.1074 24.7514 37.345 24.5877 37.5201C24.424 37.6952 24.202 37.7936 23.9705 37.7936C23.739 37.7936 23.517 37.6952 23.3533 37.5201C23.1896 37.345 23.0977 37.1074 23.0977 36.8597C23.099 35.4962 23.6059 34.189 24.507 33.2249C25.4081 32.2607 26.6298 31.7184 27.9041 31.717H28.7875C28.9913 31.717 29.1888 31.7935 29.3455 31.933L30.9073 33.322C31.1687 33.555 31.4981 33.6826 31.8383 33.6826C32.1785 33.6826 32.508 33.555 32.7694 33.322L34.33 31.9324C34.4868 31.7928 34.6842 31.7164 34.8881 31.7163H35.8814C36.5942 31.7142 37.3003 31.8634 37.9588 32.1553C38.6173 32.4472 39.2152 32.8759 39.7178 33.4167L41.3413 35.1538H44.1926C45.7486 35.1538 47.0393 36.4886 47.0701 38.1298C47.0778 38.534 47.01 38.9356 46.8708 39.3114C46.7315 39.6871 46.5236 40.0293 46.2592 40.318C45.9948 40.6067 45.6793 40.8361 45.331 40.9926C44.9827 41.1492 44.6088 41.2298 44.231 41.2298H40.1636C39.7906 41.231 39.4211 41.1529 39.0765 41.0002C38.7319 40.8475 38.419 40.6231 38.156 40.3401L36.7903 38.877C36.7791 38.8651 36.7652 38.8568 36.7499 38.8527C36.7346 38.8486 36.7186 38.8491 36.7036 38.8539C36.6866 38.8601 36.6718 38.8718 36.6613 38.8875C36.6509 38.9031 36.6453 38.9219 36.6454 38.9411V57.5323C36.6456 57.6552 36.6232 57.777 36.5793 57.8907C36.5354 58.0043 36.471 58.1076 36.3898 58.1945C36.3085 58.2815 36.212 58.3504 36.1058 58.3973C35.9996 58.4443 35.8857 58.4683 35.7708 58.4681Z" fill="#F73859"/>
+                                <path d="M25.9373 47.6279C25.1844 47.6271 24.4626 47.3067 23.9302 46.7371C23.3979 46.1675 23.0984 45.3951 23.0977 44.5896V36.8592C23.0977 36.6115 23.1896 36.374 23.3533 36.1988C23.517 36.0237 23.739 35.9253 23.9705 35.9253C24.202 35.9253 24.424 36.0237 24.5877 36.1988C24.7514 36.374 24.8434 36.6115 24.8434 36.8592V44.5896C24.8434 44.9 24.9586 45.1977 25.1638 45.4172C25.3689 45.6367 25.6472 45.7601 25.9373 45.7601C26.2275 45.7601 26.5057 45.6367 26.7109 45.4172C26.916 45.1977 27.0313 44.9 27.0313 44.5896C27.0313 44.3419 27.1232 44.1043 27.2869 43.9292C27.4506 43.754 27.6726 43.6556 27.9041 43.6556C28.1356 43.6556 28.3576 43.754 28.5213 43.9292C28.685 44.1043 28.777 44.3419 28.777 44.5896C28.7762 45.3951 28.4768 46.1675 27.9444 46.7371C27.412 47.3067 26.6902 47.6271 25.9373 47.6279Z" fill="#F73859"/>
+                                <path d="M50.5632 58.4679H23.9705C23.739 58.4679 23.517 58.3695 23.3533 58.1944C23.1896 58.0193 23.0977 57.7817 23.0977 57.534C23.0977 57.2863 23.1896 57.0488 23.3533 56.8736C23.517 56.6985 23.739 56.6001 23.9705 56.6001H50.5632C50.7947 56.6001 51.0167 56.6985 51.1804 56.8736C51.3441 57.0488 51.4361 57.2863 51.4361 57.534C51.4361 57.7817 51.3441 58.0193 51.1804 58.1944C51.0167 58.3695 50.7947 58.4679 50.5632 58.4679Z" fill="#F73859"/>
+                                <path d="M45.8162 31.9464H41.2908C41.0593 31.9464 40.8373 31.8481 40.6736 31.6729C40.5099 31.4978 40.418 31.2602 40.418 31.0125C40.418 30.7648 40.5099 30.5273 40.6736 30.3522C40.8373 30.177 41.0593 30.0786 41.2908 30.0786H45.8162C46.0477 30.0786 46.2697 30.177 46.4334 30.3522C46.5971 30.5273 46.6891 30.7648 46.6891 31.0125C46.6891 31.2602 46.5971 31.4978 46.4334 31.6729C46.2697 31.8481 46.0477 31.9464 45.8162 31.9464Z" fill="#F73859"/>
+                                <path d="M50.3417 27.7238H41.2908C41.0593 27.7238 40.8373 27.6254 40.6736 27.4503C40.5099 27.2751 40.418 27.0376 40.418 26.7899C40.418 26.5422 40.5099 26.3046 40.6736 26.1295C40.8373 25.9544 41.0593 25.856 41.2908 25.856H50.3417C50.5731 25.856 50.7952 25.9544 50.9589 26.1295C51.1225 26.3046 51.2145 26.5422 51.2145 26.7899C51.2145 27.0376 51.1225 27.2751 50.9589 27.4503C50.7952 27.6254 50.5731 27.7238 50.3417 27.7238Z" fill="#F73859"/>
+                                </svg>
+                                
                             <div class="office">
                                 <h5>Offline Mode</h5>
                                 <p>Exerci tation ullamcorper suscipit lobortis aliquip example ea . commodo consequat duis .</p>
@@ -462,14 +510,14 @@
 
     <!-- course -->
 
-    <div class="pb-20">
+    <div class="py-20 bg-[#F73859]/5">
         <div class="container">
-            <div class="max-w-3xl m-auto text-center flex flex-col gap-4">
+            <div class="max-w-3xl m-auto text-center flex flex-col gap-4 mb-8">
                 <span class="text-primary">Courses</span>
                 <h1>Find the right courses , Explore our <br> <span class="text-primary font-extrabold">Latest Courses</span></h1>
             </div>
             <div class="grid lg:grid-cols-3 grid-cols-1 py-0  gap-6">
-                <div class="lg:py-0 py-7 relative hover:love-[text-primary] max-w-[435px] m-auto group hover:shadow-2xl transition-all duration-300 rounded-lg ">
+                <div class="lg:py-0 py-7 relative hover:love-[text-primary] max-w-[435px] m-auto group hover:shadow-[0px_18px_43px_0px_rgba(0,0,0,.4)]  transition-all bg-white duration-300  rounded-lg ">
                     <div class="relative group">
                         <img  class="w-full" src="assets/img/card-photo.png" alt="">
                         <p class="absolute top-3 right-3 px-4 py-2 text-sm bg-[#FFFFFF] rounded-2xl">Creative & Design</p>
@@ -477,16 +525,18 @@
                     </div>
                     <div class="p-5">
                         <div class="flex justify-between items-center border-b-[1px] border-[#E0E0E0] pb-2">
-                            <span>Advance <i class="fa-solid fa-circle text-[10px] text-primary"></i> 13 lecture</span>
+                            <div class="text-[#444444]">
+                                <span>Advance <i class="fa-solid fa-circle text-[10px] text-primary"></i> 13 lecture</span>
+                            </div>
                             <span class="text-manu font-semibold text-2xl group-hover:text-primary">$50</span>
                         </div>
                         <a href="">
-                            <h4 class="text-2xl font-semibold py-2">Fundamental of Design and New Design Thinking of idea</h4>  
+                            <h4 class="text-xl font-semibold py-2">Fundamental of Design and New Design Thinking of idea</h4>  
                         </a>
                         <div class="flex items-center justify-between">
                             <div class="flex items-center gap-2 ">
                                 <i class="fa-solid fa-user text-sm"></i>
-                                <span>John Smith Doe</span>
+                                <span class="text-base text-[#444444]">John Smith Doe</span>
                             </div>
                             <div class="flex items-center gap-3">
                                 <i class="fa-solid fa-star text-[#EB8D00]"></i>
@@ -495,23 +545,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="lg:py-0 py-7 relative hover:love-[text-primary] max-w-[435px] m-auto group hover:shadow-2xl transition-all duration-300 rounded-lg ">
+                <div class="lg:py-0 py-7 relative hover:love-[text-primary] max-w-[435px] m-auto group hover:shadow-[0px_18px_43px_0px_rgba(0,0,0,.4)]  transition-all bg-white duration-300 rounded-lg ">
                     <div class="relative group">
                         <img class="w-full" src="assets/img/card-photo.png" alt="">
                         <i class="group-hover:text-primary fa-solid fa-heart absolute bottom-[-20px] text-[#8C9194] love translate-x-[-50%] left-[50%] bg-[#FFFFFF] p-2 rounded-full  "></i>
                     </div>
                     <div class="p-5">
                         <div class="flex justify-between items-center border-b-[1px] border-[#E0E0E0] pb-2">
-                            <span>Advance <i class="fa-solid fa-circle text-[10px] text-primary"></i> 13 lecture</span>
+                            <div class="text-[#444444]">
+                                <span>Advance <i class="fa-solid fa-circle text-[10px] text-primary"></i> 13 lecture</span>
+                            </div>
                             <span class="text-manu font-semibold text-2xl group-hover:text-primary">$50</span>
                         </div>
                         <a href="">
-                            <h4 class="text-2xl font-semibold py-2">Fundamental of Design and New Design Thinking of idea</h4>  
+                            <h4 class="text-xl font-semibold py-2">Fundamental of Design and New Design Thinking of idea</h4>  
                         </a>
                         <div class="flex items-center justify-between">
                             <div class="flex items-center gap-2 ">
                                 <i class="fa-solid fa-user text-sm"></i>
-                                <span>John Smith Doe</span>
+                                <span class="text-base text-[#444444]">John Smith Doe</span>
                             </div>
                             <div class="flex items-center gap-3">
                                 <i class="fa-solid fa-star text-[#EB8D00]"></i>
@@ -520,7 +572,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="lg:py-0 py-7 relative hover:love-[text-primary] max-w-[435px] m-auto group hover:shadow-2xl transition-all duration-300 rounded-lg">
+                <div class="lg:py-0 py-7 relative hover:love-[text-primary] max-w-[435px] m-auto group hover:shadow-[0px_18px_43px_0px_rgba(0,0,0,.4)]  transition-all bg-white duration-300 rounded-lg">
                     <div class="relative group">
                         <img class="w-full" src="assets/img/card-photo.png" alt="">
                         <p class="absolute top-3 right-3 px-4 py-2 text-sm bg-[#FFFFFF] rounded-2xl">Creative & Design</p>
@@ -528,16 +580,18 @@
                     </div>
                     <div class="p-5">
                         <div class="flex justify-between items-center border-b-[1px] border-[#E0E0E0] pb-2">
-                            <span>Advance <i class="fa-solid fa-circle text-[10px] text-primary"></i> 13 lecture</span>
+                            <div class="text-[#444444]">
+                                <span>Advance <i class="fa-solid fa-circle text-[10px] text-primary"></i> 13 lecture</span>
+                            </div>
                             <span class="text-manu font-semibold text-2xl group-hover:text-primary">$50</span>
                         </div>
                         <a href="">
-                            <h4 class="text-2xl font-semibold py-2">Fundamental of Design and New Design Thinking of idea</h4>  
+                            <h4 class=" font-semibold py-2 text-xl">Fundamental of Design and New Design Thinking of idea</h4>  
                         </a>
                         <div class="flex items-center justify-between">
                             <div class="flex items-center gap-2 ">
                                 <i class="fa-solid fa-user text-sm"></i>
-                                <span>John Smith Doe</span>
+                                <span class="text-base text-[#444444]">John Smith Doe</span>
                             </div>
                             <div class="flex items-center gap-3">
                                 <i class="fa-solid fa-star text-[#EB8D00]"></i>
@@ -547,7 +601,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex justify-center md:mt-8">
+            <div class="flex justify-center mt-8">
                 <a class="px-4 py-3 opacity-100 text-white rounded-full bg-primary inline-block" href="">
                     See More Courses
                 </a>
@@ -557,12 +611,12 @@
 
     <!-- Course Category -->
 
-    <div class="py-20 relative">
+    <div class="py-20 bg-[#FAFDFF]">
         <div class="container">
             <div class="max-w-[760px] m-auto text-center flex flex-col gap-4">
-                <span class="text-lg font-medium text-primary">Course Category</span>
+                <span class="text-lg font-medium text-primary">Blog Post</span>
                 <h1>Find the right courses , Explore <span class="text-primary font-bold"> our Course Category</span> </h1>
-                <ul class="flex md:gap-10 gap-5 items-center justify-center max-w-[860px] m-auto flex-wrap ">
+                <ul class="flex md:gap-10 gap-6 py-7 items-center justify-center max-w-[860px] m-auto flex-wrap ">
                     <li class="hover:text-primary font-heading font-medium text-lg">All Category</li>
                     <li class="hover:text-primary font-heading font-medium text-lg">Development</li>
                     <li class="hover:text-primary font-heading font-medium text-lg">Business</li>
@@ -570,97 +624,97 @@
                     <li class="hover:text-primary font-heading font-medium text-lg">Technology</li>
                 </ul>
             </div>
-            <div class="py-7 grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-5 relative justify-center">
+            <div class="py-7 grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 relative justify-center">
                 <img class="absolute top-[-50px] right-8 md:opacity-80 opacity-20 " src="assets/img/hat.png" alt="">
-                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FEEBEE] transition-all duration-300 ">
-                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#FEEBEE]"></i>
+                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FAEFF3] transition-all duration-300 bg-[#FFFFFF] ">
+                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#F73859]/10 "></i>
                     <div class="">
-                        <h5>Development</h5>
-                        <p>17 Courses</p>
+                        <h5 class="text-xl">Development</h5>
+                        <p class="text-base">17 Courses</p>
                     </div>
                 </div>
-                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FEEBEE] transition-all duration-300 ">
-                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#FEEBEE]"></i>
+                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FAEFF3] transition-all duration-300 bg-[#FFFFFF] ">
+                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#F73859]/10 "></i>
                     <div class="">
-                        <h5>Development</h5>
-                        <p>17 Courses</p>
+                        <h5 class="text-xl">Development</h5>
+                        <p class="text-base">17 Courses</p>
                     </div>
                 </div>
-                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FEEBEE] transition-all duration-300 ">
-                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#FEEBEE]"></i>
+                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FAEFF3] transition-all duration-300 bg-[#FFFFFF] ">
+                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#F73859]/10 "></i>
                     <div class="">
-                        <h5>Development</h5>
-                        <p>17 Courses</p>
+                        <h5 class="text-xl">Development</h5>
+                        <p class="text-base">17 Courses</p>
                     </div>
                 </div>
-                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FEEBEE] transition-all duration-300 ">
-                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#FEEBEE]"></i>
+                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FAEFF3] transition-all duration-300 bg-[#FFFFFF] ">
+                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#F73859]/10 "></i>
                     <div class="">
-                        <h5>Development</h5>
-                        <p>17 Courses</p>
+                        <h5 class="text-xl">Development</h5>
+                        <p class="text-base">17 Courses</p>
                     </div>
                 </div>
-                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FEEBEE] transition-all duration-300 ">
-                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#FEEBEE]"></i>
+                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FAEFF3] transition-all duration-300 bg-[#FFFFFF] ">
+                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#F73859]/10 "></i>
                     <div class="">
-                        <h5>Development</h5>
-                        <p>17 Courses</p>
+                        <h5 class="text-xl">Development</h5>
+                        <p class="text-base">17 Courses</p>
                     </div>
                 </div>
-                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FEEBEE] transition-all duration-300 ">
-                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#FEEBEE]"></i>
+                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FAEFF3] transition-all duration-300 bg-[#FFFFFF] ">
+                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#F73859]/10 "></i>
                     <div class="">
-                        <h5>Development</h5>
-                        <p>17 Courses</p>
+                        <h5 class="text-xl">Development</h5>
+                        <p class="text-base">17 Courses</p>
                     </div>
                 </div>
-                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FEEBEE] transition-all duration-300 ">
-                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#FEEBEE]"></i>
+                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FAEFF3] transition-all duration-300 bg-[#FFFFFF] ">
+                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#F73859]/10 "></i>
                     <div class="">
-                        <h5>Development</h5>
-                        <p>17 Courses</p>
+                        <h5 class="text-xl">Development</h5>
+                        <p class="text-base">17 Courses</p>
                     </div>
                 </div>
-                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FEEBEE] transition-all duration-300 ">
-                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#FEEBEE]"></i>
+                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FAEFF3] transition-all duration-300 bg-[#FFFFFF] ">
+                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#F73859]/10 "></i>
                     <div class="">
-                        <h5>Development</h5>
-                        <p>17 Courses</p>
+                        <h5 class="text-xl">Development</h5>
+                        <p class="text-base">17 Courses</p>
                     </div>
                 </div>
-                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FEEBEE] transition-all duration-300 ">
-                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#FEEBEE]"></i>
+                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FAEFF3] transition-all duration-300 bg-[#FFFFFF] ">
+                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#F73859]/10 "></i>
                     <div class="">
-                        <h5>Development</h5>
-                        <p>17 Courses</p>
+                        <h5 class="text-xl">Development</h5>
+                        <p class="text-base">17 Courses</p>
                     </div>
                 </div>
-                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FEEBEE] transition-all duration-300 ">
-                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#FEEBEE]"></i>
+                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FAEFF3] transition-all duration-300 bg-[#FFFFFF] ">
+                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#F73859]/10 "></i>
                     <div class="">
-                        <h5>Development</h5>
-                        <p>17 Courses</p>
+                        <h5 class="text-xl">Development</h5>
+                        <p class="text-base">17 Courses</p>
                     </div>
                 </div>
-                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FEEBEE] transition-all duration-300 ">
-                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#FEEBEE]"></i>
+                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FAEFF3] transition-all duration-300 bg-[#FFFFFF] ">
+                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#F73859]/10 "></i>
                     <div class="">
-                        <h5>Development</h5>
-                        <p>17 Courses</p>
+                        <h5 class="text-xl">Development</h5>
+                        <p class="text-base">17 Courses</p>
                     </div>
                 </div>
-                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FEEBEE] transition-all duration-300 ">
-                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#FEEBEE]"></i>
+                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FAEFF3] transition-all duration-300 bg-[#FFFFFF] ">
+                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#F73859]/10 "></i>
                     <div class="">
-                        <h5>Development</h5>
-                        <p>17 Courses</p>
+                        <h5 class="text-xl">Development</h5>
+                        <p class="text-base">17 Courses</p>
                     </div>
                 </div>
-                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FEEBEE] transition-all duration-300 ">
-                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#FEEBEE]"></i>
+                <div class=" justify-center flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-[#FAEFF3] transition-all duration-300 bg-[#FFFFFF] ">
+                    <i class="fa-solid fa-music text-primary p-4 rounded-full bg-[#F73859]/10 "></i>
                     <div class="">
-                        <h5>Development</h5>
-                        <p>17 Courses</p>
+                        <h5 class="text-xl">Development</h5>
+                        <p class="text-base">17 Courses</p>
                     </div>
                 </div>
             </div>
@@ -670,14 +724,14 @@
 
     <!-- blog post -->
 
-    <div class="pb-20">
+    <div class="py-20 bg-[#F73859]/5">
         <div class="container"> 
             <div class="max-w-[760px] m-auto text-center flex flex-col gap-4 mb-7">
                 <span class="text-lg font-medium text-primary">Course Category</span>
                 <h1>Let,s See Some of Our New <br><span class="text-primary font-bold">   Latest News</span> </h1>
             </div>
             <div class="grid md:grid-cols-4 gap-5">
-                <div class="lg:py-0 py-7 relative group shadow-2xl max-w-[320px] border-b-2 border-transparent hover:border-primary m-auto">
+                <div class="lg:py-0 py-7 relative group shadow-[0px_10px_43px_0px_rgba(0,0,0,.4)] max-w-[320px] border-b-2 border-transparent hover:border-primary m-auto">
                     <div class="relative group">
                         <img  class="w-full" src="assets/img/blog-card-photo.png" alt="">
                     </div>
@@ -685,7 +739,7 @@
                         <div class="flex justify-between items-center border-b-[1px] border-[#E0E0E0] pb-2">
                             <span> <i class="fa-solid fa-calendar-days text-[15px] text-primary"></i> 12 July ,2021</span>
                         </div>
-                        <h4 class="text-xl font-semibold py-2">Lorem ipsum dolor sit a nibh purus lorem </h4>
+                        <h4 class="text-xl font-semibold py-2 text-xl">Lorem ipsum dolor sit a nibh purus lorem </h4>
                         <div class="flex items-center justify-between">
                             <div class="flex items-center gap-2 ">
                                 <i class="fa-regular fa-user"></i>
@@ -696,7 +750,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="lg:py-0 py-7 relative group shadow-2xl max-w-[320px] border-b-2 border-transparent hover:border-primary m-auto">
+                <div class="lg:py-0 py-7 relative group shadow-[0px_10px_43px_0px_rgba(0,0,0,.4)]  max-w-[320px] border-b-2 border-transparent hover:border-primary m-auto">
                     <div class="relative group">
                         <img  class="w-full" src="assets/img/blog-card-photo.png" alt="">
                     </div>
@@ -704,7 +758,7 @@
                         <div class="flex justify-between items-center border-b-[1px] border-[#E0E0E0] pb-2">
                             <span> <i class="fa-solid fa-calendar-days text-[15px] text-primary"></i> 12 July ,2021</span>
                         </div>
-                        <h4 class="text-xl font-semibold py-2">Lorem ipsum dolor sit a nibh purus lorem </h4>
+                        <h4 class="text-xl font-semibold py-2 text-xl">Lorem ipsum dolor sit a nibh purus lorem </h4>
                         <div class="flex items-center justify-between">
                             <div class="flex items-center gap-2 ">
                                 <i class="fa-regular fa-user"></i>
@@ -715,7 +769,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="lg:py-0 py-7 relative group shadow-2xl max-w-[320px] border-b-2 border-transparent hover:border-primary m-auto ">
+                <div class="lg:py-0 py-7 relative group shadow-[0px_10px_43px_0px_rgba(0,0,0,.4)]  max-w-[320px] border-b-2 border-transparent hover:border-primary m-auto ">
                     <div class="relative group">
                         <img  class="w-full" src="assets/img/blog-card-photo.png" alt="">
                     </div>
@@ -723,7 +777,7 @@
                         <div class="flex justify-between items-center border-b-[1px] border-[#E0E0E0] pb-2">
                             <span> <i class="fa-solid fa-calendar-days text-[15px] text-primary"></i> 12 July ,2021</span>
                         </div>
-                        <h4 class="text-xl font-semibold py-2">Lorem ipsum dolor sit a nibh purus lorem </h4>
+                        <h4 class="text-xl font-semibold py-2 text-xl">Lorem ipsum dolor sit a nibh purus lorem </h4>
                         <div class="flex items-center justify-between">
                             <div class="flex items-center gap-2 ">
                                 <i class="fa-regular fa-user"></i>
@@ -734,7 +788,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="lg:py-0 py-7 relative group shadow-2xl max-w-[320px] border-b-2 border-transparent hover:border-primary m-auto">
+                <div class="lg:py-0 py-7 relative group shadow-[0px_10px_43px_0px_rgba(0,0,0,.4)]  max-w-[320px] border-b-2 border-transparent hover:border-primary m-auto">
                     <div class="relative group">
                         <img  class="w-full" src="assets/img/blog-card-photo.png" alt="">
                     </div>
@@ -742,7 +796,7 @@
                         <div class="flex justify-between items-center border-b-[1px] border-[#E0E0E0] pb-2">
                             <span> <i class="fa-solid fa-calendar-days text-[15px] text-primary"></i> 12 July ,2021</span>
                         </div>
-                        <h4 class="text-xl font-semibold py-2">Lorem ipsum dolor sit a nibh purus lorem </h4>
+                        <h4 class="text-xl font-semibold py-2 text-xl">Lorem ipsum dolor sit a nibh purus lorem </h4>
                         <div class="flex items-center justify-between">
                             <div class="flex items-center gap-2 ">
                                 <i class="fa-regular fa-user"></i>
@@ -791,8 +845,8 @@
 
     <div class="py-10 bg-[#FAF5F8] overflow-hidden">
         <div class="container"> 
-            <div class="max-w-4xl m-auto text-center flex flex-col gap-4">
-                <h1>Want us to email you occasionally with golearn update info & courses? </h1>
+            <div class="max-w-3xl m-auto text-center flex flex-col gap-4">
+                <h1 class="text-4xl ">Want us to email you occasionally with golearn update info & courses? </h1>
             </div>
             <div class="relative max-w-2xl m-auto py-11">
                 <input class="rounded-3xl items-center pl-12 pr-52 py-5 shadow-md w-full text-sm mb-5" type="text" placeholder="Enter your email address">
@@ -859,7 +913,7 @@
                         <a href=""><li class="hover:text-primary"> Courses</li></a>
                         <a href=""><li class="hover:text-primary">Instructor</li></a>
                         <a href=""><li class="hover:text-primary">Creative & Design</li></a>
-                        <a href=""><li class="hover:text-primary"> Business & Marketing</li></a>
+                        <a href=""><li class="hover:text-primary"> Business</li></a>
                         <a href=""><li class="hover:text-primary"> Development</li></a>
                     </ul>
                 </div>

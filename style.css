@@ -840,6 +840,11 @@ h6{
   margin-right: 6px;
 }
 
+.my-9{
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+
 .mb-0{
   margin-bottom: 0px;
 }
@@ -870,6 +875,10 @@ h6{
 
 .mb-7{
   margin-bottom: 1.75rem;
+}
+
+.mb-8{
+  margin-bottom: 2rem;
 }
 
 .mt-0{
@@ -980,6 +989,10 @@ h6{
   width: 5rem;
 }
 
+.w-40{
+  width: 10rem;
+}
+
 .w-52{
   width: 13rem;
 }
@@ -1014,10 +1027,6 @@ h6{
 
 .w-full{
   width: 100%;
-}
-
-.w-40{
-  width: 10rem;
 }
 
 .max-w-2xl{
@@ -1086,14 +1095,6 @@ h6{
 
 .max-w-xs{
   max-width: 20rem;
-}
-
-.max-w-\[150px\]{
-  max-width: 150px;
-}
-
-.max-w-\[100px\]{
-  max-width: 100px;
 }
 
 .border-collapse{
@@ -1196,6 +1197,10 @@ h6{
   gap: 3.5rem;
 }
 
+.gap-16{
+  gap: 4rem;
+}
+
 .gap-2{
   gap: 0.5rem;
 }
@@ -1222,6 +1227,14 @@ h6{
 
 .gap-8{
   gap: 2rem;
+}
+
+.gap-9{
+  gap: 2.25rem;
+}
+
+.gap-\[7px\]{
+  gap: 7px;
 }
 
 .gap-x-10{
@@ -1359,14 +1372,22 @@ h6{
   background-color: rgb(247 56 89 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#F73859\]\/10{
+  background-color: rgb(247 56 89 / 0.1);
+}
+
+.bg-\[\#F73859\]\/5{
+  background-color: rgb(247 56 89 / 0.05);
+}
+
 .bg-\[\#FAF5F8\]{
   --tw-bg-opacity: 1;
   background-color: rgb(250 245 248 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#FEEBEE\]{
+.bg-\[\#FAFDFF\]{
   --tw-bg-opacity: 1;
-  background-color: rgb(254 235 238 / var(--tw-bg-opacity));
+  background-color: rgb(250 253 255 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#FFFFFF\]{
@@ -1429,6 +1450,10 @@ h6{
 .bg-red-500{
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.bg-transparent{
+  background-color: transparent;
 }
 
 .bg-white{
@@ -1591,6 +1616,11 @@ h6{
   padding-bottom: 2rem;
 }
 
+.py-9{
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
 .pb-2{
   padding-bottom: 0.5rem;
 }
@@ -1611,8 +1641,28 @@ h6{
   padding-left: 3rem;
 }
 
+.pl-14{
+  padding-left: 3.5rem;
+}
+
 .pl-28{
   padding-left: 7rem;
+}
+
+.pl-9{
+  padding-left: 2.25rem;
+}
+
+.pr-10{
+  padding-right: 2.5rem;
+}
+
+.pr-12{
+  padding-right: 3rem;
+}
+
+.pr-14{
+  padding-right: 3.5rem;
 }
 
 .pr-16{
@@ -1645,6 +1695,14 @@ h6{
 
 .pr-60{
   padding-right: 15rem;
+}
+
+.pr-8{
+  padding-right: 2rem;
+}
+
+.pr-9{
+  padding-right: 2.25rem;
 }
 
 .pt-20{
@@ -1681,8 +1739,18 @@ h6{
   line-height: 2.25rem;
 }
 
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-5xl{
   font-size: 3rem;
+  line-height: 1;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
   line-height: 1;
 }
 
@@ -1692,6 +1760,14 @@ h6{
 
 .text-\[15px\]{
   font-size: 15px;
+}
+
+.text-\[40px\]{
+  font-size: 40px;
+}
+
+.text-\[64px\]{
+  font-size: 64px;
 }
 
 .text-\[9px\]{
@@ -1754,6 +1830,11 @@ h6{
 .text-\[\#101921\]{
   --tw-text-opacity: 1;
   color: rgb(16 25 33 / var(--tw-text-opacity));
+}
+
+.text-\[\#444444\]{
+  --tw-text-opacity: 1;
+  color: rgb(68 68 68 / var(--tw-text-opacity));
 }
 
 .text-\[\#8C9194\]{
@@ -1835,6 +1916,12 @@ h6{
 .shadow-2xl{
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0px_10px_43px_0px_rgba\(0\2c 0\2c 0\2c \.4\)\]{
+  --tw-shadow: 0px 10px 43px 0px rgba(0,0,0,.4);
+  --tw-shadow-colored: 0px 10px 43px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -1983,16 +2070,17 @@ a {
   padding-left: 30px;
 }
 
-.bdr{
+.bdr {
   position: relative;
+  padding-right: 11px;
 }
 
 * .bdr::after {
   content: "";
-  height: 22px;
+  height: 20px;
   width: 1px;
   position: absolute;
-  top: 3px;
+  top: 4px;
   right: 0;
   background: #101921;
 }
@@ -2167,9 +2255,9 @@ a {
   border-color: rgb(247 56 89 / var(--tw-border-opacity));
 }
 
-.hover\:bg-\[\#FEEBEE\]:hover{
+.hover\:bg-\[\#FAEFF3\]:hover{
   --tw-bg-opacity: 1;
-  background-color: rgb(254 235 238 / var(--tw-bg-opacity));
+  background-color: rgb(250 239 243 / var(--tw-bg-opacity));
 }
 
 .hover\:text-black:hover{
@@ -2182,9 +2270,9 @@ a {
   color: rgb(247 56 89 / var(--tw-text-opacity));
 }
 
-.hover\:shadow-2xl:hover{
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+.hover\:shadow-\[0px_18px_43px_0px_rgba\(0\2c 0\2c 0\2c \.4\)\]:hover{
+  --tw-shadow: 0px 18px 43px 0px rgba(0,0,0,.4);
+  --tw-shadow-colored: 0px 18px 43px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -2245,10 +2333,6 @@ a {
     margin-bottom: 0px;
   }
 
-  .md\:mt-8{
-    margin-top: 2rem;
-  }
-
   .md\:block{
     display: block;
   }
@@ -2265,6 +2349,10 @@ a {
     display: none;
   }
 
+  .md\:max-w-sm{
+    max-width: 24rem;
+  }
+
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2279,6 +2367,14 @@ a {
 
   .md\:gap-10{
     gap: 2.5rem;
+  }
+
+  .md\:pl-14{
+    padding-left: 3.5rem;
+  }
+
+  .md\:pr-14{
+    padding-right: 3.5rem;
   }
 
   .md\:text-5xl{
@@ -2329,10 +2425,6 @@ a {
 @media (min-width: 1199px){
   .xl\:order-1{
     order: 1;
-  }
-
-  .xl\:grid-cols-2{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .xl\:grid-cols-5{

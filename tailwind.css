@@ -133,15 +133,16 @@ a {
 	padding-left: 30px;
 }
 
-.bdr{
+.bdr {
 	position: relative;
+	padding-right: 11px;
 }
 * .bdr::after {
 	content: "";
-	height: 22px;
+	height: 20px;
 	width: 1px;
 	position: absolute;
-	top: 3px;
+	top: 4px;
 	right: 0;
 	background: #101921;
 } 

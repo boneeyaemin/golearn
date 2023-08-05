@@ -840,8 +840,28 @@ h6{
   margin-right: 6px;
 }
 
+.mb-0{
+  margin-bottom: 0px;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
 .mb-2{
   margin-bottom: 0.5rem;
+}
+
+.mb-20{
+  margin-bottom: 5rem;
+}
+
+.mb-32{
+  margin-bottom: 8rem;
+}
+
+.mb-44{
+  margin-bottom: 11rem;
 }
 
 .mb-5{
@@ -866,26 +886,6 @@ h6{
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mb-20{
-  margin-bottom: 5rem;
-}
-
-.mb-44{
-  margin-bottom: 11rem;
-}
-
-.mb-32{
-  margin-bottom: 8rem;
-}
-
-.mb-0{
-  margin-bottom: 0px;
-}
-
-.mb-10{
-  margin-bottom: 2.5rem;
 }
 
 .block{
@@ -1016,6 +1016,10 @@ h6{
   width: 100%;
 }
 
+.w-40{
+  width: 10rem;
+}
+
 .max-w-2xl{
   max-width: 42rem;
 }
@@ -1082,6 +1086,14 @@ h6{
 
 .max-w-xs{
   max-width: 20rem;
+}
+
+.max-w-\[150px\]{
+  max-width: 150px;
+}
+
+.max-w-\[100px\]{
+  max-width: 100px;
 }
 
 .border-collapse{
@@ -2203,24 +2215,8 @@ a {
     right: 0px;
   }
 
-  .sm\:top-\[-20\]{
-    top: -20;
-  }
-
   .sm\:top-20{
     top: 5rem;
-  }
-
-  .sm\:mb-0{
-    margin-bottom: 0px;
-  }
-
-  .sm\:mb-5{
-    margin-bottom: 1.25rem;
-  }
-
-  .sm\:mb-10{
-    margin-bottom: 2.5rem;
   }
 
   .sm\:mb-32{
@@ -2245,12 +2241,12 @@ a {
 }
 
 @media (min-width: 767px){
-  .md\:mt-8{
-    margin-top: 2rem;
-  }
-
   .md\:mb-0{
     margin-bottom: 0px;
+  }
+
+  .md\:mt-8{
+    margin-top: 2rem;
   }
 
   .md\:block{
@@ -2331,20 +2327,8 @@ a {
 }
 
 @media (min-width: 1199px){
-  .xl\:absolute{
-    position: absolute;
-  }
-
   .xl\:order-1{
     order: 1;
-  }
-
-  .xl\:block{
-    display: block;
-  }
-
-  .xl\:max-w-sm{
-    max-width: 24rem;
   }
 
   .xl\:grid-cols-2{

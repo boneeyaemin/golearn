@@ -24,7 +24,7 @@ $(document).ready(function(){
             items:3,
             nav:true,
             dots:true,
-            autoplay: true,
+            autoplay: false,
             margin:15,
             loop: true,
             smartSpeed: 600,
@@ -60,7 +60,6 @@ $(document).ready(function(){
 
         // 
         $(".slider2").owlCarousel({
-            items:5,
             dots:true,
             autoplay: true,
             loop: true,

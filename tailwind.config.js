@@ -18,7 +18,7 @@ module.exports = {
         'primary': " #F73859",
         'manu': "#101921",
         'b-paragraphy': "#E0E0E0",                    
-        'w-paragraphy': "##3E4549",
+        'w-paragraphy': "#3E4549",
         'icon': "#555555",
       },
       fontFamily:{

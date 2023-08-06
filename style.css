@@ -775,8 +775,8 @@ h6{
   top: 50px;
 }
 
-.top-\[52px\]{
-  top: 52px;
+.top-\[54px\]{
+  top: 54px;
 }
 
 .top-\[60\%\]{
@@ -785,14 +785,6 @@ h6{
 
 .top-\[60px\]{
   top: 60px;
-}
-
-.top-\[53px\]{
-  top: 53px;
-}
-
-.top-\[54px\]{
-  top: 54px;
 }
 
 .-z-10{
@@ -1243,6 +1235,10 @@ h6{
 
 .gap-\[7px\]{
   gap: 7px;
+}
+
+.gap-20{
+  gap: 5rem;
 }
 
 .gap-x-10{
@@ -1734,6 +1730,14 @@ h6{
   padding-top: 1.25rem;
 }
 
+.pl-16{
+  padding-left: 4rem;
+}
+
+.pl-20{
+  padding-left: 5rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -1783,6 +1787,10 @@ h6{
   font-size: 15px;
 }
 
+.text-\[36px\]{
+  font-size: 36px;
+}
+
 .text-\[40px\]{
   font-size: 40px;
 }
@@ -1820,8 +1828,8 @@ h6{
   line-height: 1rem;
 }
 
-.text-\[36px\]{
-  font-size: 36px;
+.text-\[14px\]{
+  font-size: 14px;
 }
 
 .font-bold{
@@ -2470,6 +2478,22 @@ ul#filterOptions li.active a {
 
   .md\:pr-14{
     padding-right: 3.5rem;
+  }
+
+  .md\:pl-16{
+    padding-left: 4rem;
+  }
+
+  .md\:pr-16{
+    padding-right: 4rem;
+  }
+
+  .md\:pl-20{
+    padding-left: 5rem;
+  }
+
+  .md\:pr-20{
+    padding-right: 5rem;
   }
 
   .md\:text-5xl{

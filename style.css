@@ -787,6 +787,14 @@ h6{
   top: 60px;
 }
 
+.top-\[53px\]{
+  top: 53px;
+}
+
+.top-\[54px\]{
+  top: 54px;
+}
+
 .-z-10{
   z-index: -10;
 }
@@ -1357,6 +1365,14 @@ h6{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
 
+.bg-\[\#1323\2c 464\]{
+  background-color: #1323,464;
+}
+
+.bg-\[\#1666\2c 543\]{
+  background-color: #1666,543;
+}
+
 .bg-\[\#323B45\]{
   --tw-bg-opacity: 1;
   background-color: rgb(50 59 69 / var(--tw-bg-opacity));
@@ -1440,6 +1456,11 @@ h6{
 
 .bg-primary\/60{
   background-color: rgb(247 56 89 / 0.6);
+}
+
+.bg-red-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
 }
 
 .bg-red-400{
@@ -1797,6 +1818,10 @@ h6{
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[36px\]{
+  font-size: 36px;
 }
 
 .font-bold{
@@ -2250,6 +2275,76 @@ a {
   background-color: rgb(247 56 89 / var(--tw-bg-opacity)) !important;
 }
 
+/* nothing */
+
+.category-social-media-and-websites {
+  background: #33ccff;
+}
+
+.category-webinars {
+  background: #006699;
+}
+
+/*- FILTER OPTIONS -*/
+
+ul#filterOptions {
+  width: 802px;
+  height: 52px;
+  margin: 30px 0;
+  overflow: hidden;
+}
+
+ul#filterOptions li {
+  height: 52px;
+  margin-right: 2px;
+  float: left;
+}
+
+ul#filterOptions li a {
+  height: 50px;
+  padding: 0 20px;
+  border: 1px solid #999;
+  background: #cfcfcf;
+  color: #fff;
+  font-weight: bold;
+  line-height: 50px;
+  text-decoration: none;
+  display: block;
+}
+
+ul#filterOptions li a:hover {
+  background: #c9c9c9;
+}
+
+ul#filterOptions li.active a {
+  background: #999;
+}
+
+/*- -*/
+
+/*- OUR DATA HOLDER -*/
+
+#ourHolder {
+  width: 800px;
+  height: 850px;
+  overflow: hidden;
+}
+
+#ourHolder div.item {
+  width: 200px;
+  height: 200px;
+  float: left;
+  text-align: center;
+}
+
+#ourHolder div.item h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/*- -*/
+
 .hover\:border-primary:hover{
   --tw-border-opacity: 1;
   border-color: rgb(247 56 89 / var(--tw-border-opacity));
@@ -2396,6 +2491,10 @@ a {
     margin-top: 0px;
   }
 
+  .lg\:block{
+    display: block;
+  }
+
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2431,5 +2530,4 @@ a {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
-
 

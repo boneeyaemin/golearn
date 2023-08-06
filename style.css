@@ -897,6 +897,18 @@ h6{
   margin-top: 2rem;
 }
 
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.mt-12{
+  margin-top: 3rem;
+}
+
+.mb-12{
+  margin-bottom: 3rem;
+}
+
 .block{
   display: block;
 }
@@ -1205,6 +1217,10 @@ h6{
   gap: 0.5rem;
 }
 
+.gap-20{
+  gap: 5rem;
+}
+
 .gap-3{
   gap: 0.75rem;
 }
@@ -1235,10 +1251,6 @@ h6{
 
 .gap-\[7px\]{
   gap: 7px;
-}
-
-.gap-20{
-  gap: 5rem;
 }
 
 .gap-x-10{
@@ -1662,6 +1674,14 @@ h6{
   padding-left: 3.5rem;
 }
 
+.pl-16{
+  padding-left: 4rem;
+}
+
+.pl-20{
+  padding-left: 5rem;
+}
+
 .pl-28{
   padding-left: 7rem;
 }
@@ -1730,14 +1750,6 @@ h6{
   padding-top: 1.25rem;
 }
 
-.pl-16{
-  padding-left: 4rem;
-}
-
-.pl-20{
-  padding-left: 5rem;
-}
-
 .text-left{
   text-align: left;
 }
@@ -1783,6 +1795,10 @@ h6{
   font-size: 10px;
 }
 
+.text-\[14px\]{
+  font-size: 14px;
+}
+
 .text-\[15px\]{
   font-size: 15px;
 }
@@ -1826,10 +1842,6 @@ h6{
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[14px\]{
-  font-size: 14px;
 }
 
 .font-bold{
@@ -2470,22 +2482,6 @@ ul#filterOptions li.active a {
 
   .md\:gap-10{
     gap: 2.5rem;
-  }
-
-  .md\:pl-14{
-    padding-left: 3.5rem;
-  }
-
-  .md\:pr-14{
-    padding-right: 3.5rem;
-  }
-
-  .md\:pl-16{
-    padding-left: 4rem;
-  }
-
-  .md\:pr-16{
-    padding-right: 4rem;
   }
 
   .md\:pl-20{

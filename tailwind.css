@@ -156,9 +156,7 @@ a {
 .card-love i{
     font-size: 20px;
 }
-.owl-nav {
-	display: none;
-}
+
 
 /* owl-carousel */
 
@@ -268,67 +266,35 @@ a {
 	@apply !bg-primary
 }
 
-
-/* nothing */
-.category-social-media-and-websites {
-	background: #33ccff;
-  }
-  
-  .category-webinars {
-	background: #006699;
-  }
- 
-  /*- FILTER OPTIONS -*/
-  ul#filterOptions {
-	width: 802px;
-	height: 52px;
-	margin: 30px 0;
-	overflow: hidden;
-  }
-  ul#filterOptions li { height: 52px; margin-right: 2px; float: left; }
-  ul#filterOptions li a {
-	height: 50px;
-	padding: 0 20px;
-	border: 1px solid #999;
-	background: #cfcfcf;
-	color: #fff;
-	font-weight: bold;
-	line-height: 50px;
-	text-decoration: none;
-	display: block;
-  }
-  ul#filterOptions li a:hover { background: #c9c9c9; }
-  ul#filterOptions li.active a { background: #999; }
-  /*- -*/
-  
-  /*- OUR DATA HOLDER -*/
-  #ourHolder { width: 800px; height: 850px; overflow: hidden; }
-  #ourHolder div.item {
-	  width: 200px;
-	  height: 200px;
-	  float: left;
-	  text-align: center;
-  }
-  #ourHolder div.item h3 { margin-top: 10px; font-size: 16px; line-height: 20px; }
-  /*- -*/
-
-
-
-
-  /* not */
-
-/* .about-image {
-width: 70%;
-margin: ;
-margin-right: auto;
-margin-top: -20%;
+/*  */
+.slider1 .owl-dots {
+	position: absolute;
 }
-.about-long-imege {
-width: 70%;
-margin-left: auto;
+.slider1 .owl-dots {
+	position: absolute;
+    @apply absolute left-1/2 -translate-x-1/2 -bottom-[53px];
 }
-.sm\:block.hidden.z-10 {
-position: absolute;
+.slider1 .owl-dot {
+    @apply !bg-white w-2 h-2 rounded-full mx-[6px];
+}
+.slider1 .owl-dot.active {
+	@apply !bg-primary
+}
+
+.bdr2{
+	position: relative;
+}
+.bdr2::after {
+	content: "";
+	height: 80px;
+	width: 1px;
+	position: absolute;
+	top: 27px;
+	right: 0;
+	background: white;
+}
+
+
+/* .container .grid:last-child .bdr2 {
+	display: none;
 } */
-
-

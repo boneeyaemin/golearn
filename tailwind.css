@@ -223,6 +223,10 @@ a {
 .h-menu li {
 	position: relative;
 }
+.h-menu li:hover ul {
+	visibility: visible;
+	opacity: 1;
+}
 
 /* end */
 

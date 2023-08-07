@@ -860,6 +860,10 @@ h6{
   grid-column: span 5 / span 5;
 }
 
+.col-span-1{
+  grid-column: span 1 / span 1;
+}
+
 .m-5{
   margin: 1.25rem;
 }
@@ -876,6 +880,26 @@ h6{
 .my-9{
   margin-top: 2.25rem;
   margin-bottom: 2.25rem;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-0{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .\!mt-\[-22\%\]{
@@ -1040,6 +1064,14 @@ h6{
 
 .h-full{
   height: 100%;
+}
+
+.h-\[50px\]{
+  height: 50px;
+}
+
+.h-auto{
+  height: auto;
 }
 
 .w-1{
@@ -2542,8 +2574,16 @@ a {
 }
 
 @media (min-width: 575px){
+  .sm\:col-span-1{
+    grid-column: span 1 / span 1;
+  }
+
   .sm\:flex{
     display: flex;
+  }
+
+  .sm\:h-auto{
+    height: auto;
   }
 
   .sm\:grid-cols-2{
@@ -2556,6 +2596,15 @@ a {
 }
 
 @media (min-width: 767px){
+  .md\:col-span-1{
+    grid-column: span 1 / span 1;
+  }
+
+  .md\:my-0{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   .md\:block{
     display: block;
   }

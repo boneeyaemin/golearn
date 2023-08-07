@@ -201,6 +201,31 @@ a {
 
 /*  */
 
+/* dropdown-manu */
+.h-menu ul ul {
+	position: absolute;
+	width: 200px;
+	flex-direction: column;
+	background: white;
+	top: 100%;
+	left: 0;
+	padding: 15px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	z-index: 20;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(20px);
+	transition: .5s;
+}
+.h-menu > ul > li {
+	padding: 24px 0;
+}
+.h-menu li {
+	position: relative;
+}
+
+/* end */
+
 .menutrigger span {
 	@apply h-[2px] w-[30px] bg-black block;
 }
@@ -282,3 +307,21 @@ a {
   #ourHolder div.item h3 { margin-top: 10px; font-size: 16px; line-height: 20px; }
   /*- -*/
 
+
+
+
+  /* not */
+
+/* .about-image {
+width: 70%;
+margin: ;
+margin-right: auto;
+margin-top: -20%;
+}
+.about-long-imege {
+width: 70%;
+margin-left: auto;
+}
+.sm\:block.hidden.z-10 {
+position: absolute;
+} */

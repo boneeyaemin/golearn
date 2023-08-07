@@ -105,6 +105,19 @@ $(document).ready(function(){
               }
               return false;
             });
+
+    $('.filter-button li').on("click",function(){
+        var button = $(this).data('filter');
+        console.log(button);
+        if(button == 'all') {
+            $('.filter-item').show();
+          }
+          else {
+            $('.filter-item:not(.' + button + ')').hide();
+      
+           $('.filter-item.' + button ).show();
+       }
+    });
             
 
 

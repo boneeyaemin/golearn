@@ -226,6 +226,7 @@ a {
 .h-menu li:hover ul {
 	visibility: visible;
 	opacity: 1;
+	transform: translateY(0)
 }
 
 /* end */
@@ -329,3 +330,5 @@ margin-left: auto;
 .sm\:block.hidden.z-10 {
 position: absolute;
 } */
+
+

@@ -2361,6 +2361,7 @@ a {
 .h-menu li:hover ul {
   visibility: visible;
   opacity: 1;
+  transform: translateY(0)
 }
 
 /* end */
@@ -2609,10 +2610,6 @@ position: absolute;
     gap: 2.5rem;
   }
 
-  .md\:pb-44{
-    padding-bottom: 11rem;
-  }
-
   .md\:pr-20{
     padding-right: 5rem;
   }
@@ -2679,3 +2676,5 @@ position: absolute;
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
+
+

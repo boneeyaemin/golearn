@@ -191,10 +191,10 @@ a {
 	@apply  text-white hover:text-black font-semibold;
 }
 .mobile-menu {
-	@apply rounded-l-md fixed right-0 bg-primary w-52 h-64 py-3 px-5;
+	@apply rounded-l-md fixed right-0 bg-[#101921] w-52 h-64 py-3 px-5;
 }
 .mobile-menu .h-menu ul li {
-	@apply py-2 border-b-2 border-gray-500;
+	@apply py-2 border-b-2 border-primary;
 }
 
 /*  */
@@ -214,6 +214,9 @@ a {
 	visibility: hidden;
 	transform: translateY(20px);
 	transition: .5s;
+}
+.h-menu ul ul {
+	@apply lg:block hidden;
 }
 .h-menu > ul > li {
 	padding: 24px 0;

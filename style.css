@@ -892,6 +892,11 @@ h6{
   margin-bottom: 1.5rem;
 }
 
+.my-7{
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -900,6 +905,11 @@ h6{
 .my-9{
   margin-top: 2.25rem;
   margin-bottom: 2.25rem;
+}
+
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .\!mt-\[-22\%\]{
@@ -1478,6 +1488,11 @@ h6{
   background-color: rgb(3 17 33 / 0.9);
 }
 
+.bg-\[\#101921\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 25 33 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#242C33\]{
   --tw-bg-opacity: 1;
   background-color: rgb(36 44 51 / var(--tw-bg-opacity));
@@ -1966,10 +1981,6 @@ h6{
   font-size: 5px;
 }
 
-.text-\[64px\]{
-  font-size: 64px;
-}
-
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2390,7 +2401,7 @@ a {
   border-top-left-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(247 56 89 / var(--tw-bg-opacity));
+  background-color: rgb(16 25 33 / var(--tw-bg-opacity));
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   padding-left: 1.25rem;
@@ -2400,7 +2411,7 @@ a {
 .mobile-menu .h-menu ul li{
   border-bottom-width: 2px;
   --tw-border-opacity: 1;
-  border-color: rgb(107 114 128 / var(--tw-border-opacity));
+  border-color: rgb(247 56 89 / var(--tw-border-opacity));
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -2423,6 +2434,13 @@ a {
   visibility: hidden;
   transform: translateY(20px);
   transition: .5s;
+  display: none;
+}
+
+@media (min-width: 991px){
+  .h-menu ul ul{
+    display: block;
+  }
 }
 
 .h-menu > ul > li {
@@ -2677,9 +2695,17 @@ a {
     padding-right: 5rem;
   }
 
+  .md\:pt-12{
+    padding-top: 3rem;
+  }
+
   .md\:text-5xl{
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:text-\[64px\]{
+    font-size: 64px;
   }
 
   .md\:opacity-80{

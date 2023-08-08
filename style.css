@@ -2551,6 +2551,16 @@ a {
   background: none;
 }
 
+.bdr2::after{
+  display: none;
+}
+
+@media (min-width: 767px){
+  .bdr2::after{
+    display: block;
+  }
+}
+
 .hover\:border-primary:hover{
   --tw-border-opacity: 1;
   border-color: rgb(247 56 89 / var(--tw-border-opacity));

@@ -300,3 +300,6 @@ a {
 .container .grid:last-child .bdr2 {
 	background: none;
 }
+.bdr2::after {
+	@apply md:block hidden;
+}

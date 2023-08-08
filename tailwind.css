@@ -188,7 +188,7 @@ a {
 	@apply  block md:flex gap-x-10 ;
 }
 .mobile-menu .h-menu li a{
-	@apply  text-white hover:text-black font-semibold;
+	@apply  text-white hover:text-primary font-semibold;
 }
 .mobile-menu {
 	@apply rounded-l-md fixed right-0 bg-[#101921] w-52 h-64 py-3 px-5;
@@ -308,4 +308,7 @@ a {
 }
 .pt .owl-nav {
 	display: none;
+}
+.hover\:text-primary.font-heading.font-medium.text-lg.active {
+	color: #F73859;
 }

@@ -446,9 +446,17 @@ body{
   color: rgb(62 69 73 / var(--tw-text-opacity));
 }
 
+body.hover\:text-primary.font-heading.font-medium.active {
+  color: #F73859;
+}
+
 h1, h2, h3, h4, h5, h6{
   font-family: Khula;
   font-weight: 600;
+}
+
+h1.hover\:text-primary.font-medium.text-lg.active, h2.hover\:text-primary.font-medium.text-lg.active, h3.hover\:text-primary.font-medium.text-lg.active, h4.hover\:text-primary.font-medium.text-lg.active, h5.hover\:text-primary.font-medium.text-lg.active, h6.hover\:text-primary.font-medium.text-lg.active {
+  color: #F73859;
 }
 
 h1{
@@ -486,6 +494,10 @@ h5{
 h6{
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+h6.hover\:text-primary.font-heading.font-medium.active {
+  color: #F73859;
 }
 
 *, ::before, ::after{
@@ -2359,6 +2371,10 @@ a {
 
 /* mobile manu */
 
+.h-menu li a.font-heading.font-medium.text-lg.active {
+  color: #F73859;
+}
+
 .h-menu li a:hover{
   --tw-text-opacity: 1;
   color: rgb(247 56 89 / var(--tw-text-opacity));
@@ -2396,9 +2412,13 @@ a {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.mobile-menu .h-menu li a.font-heading.font-medium.text-lg.active {
+  color: #F73859;
+}
+
 .mobile-menu .h-menu li a:hover{
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(247 56 89 / var(--tw-text-opacity));
 }
 
 .mobile-menu{
@@ -2591,6 +2611,10 @@ a {
   display: none;
 }
 
+.hover\:text-primary.font-heading.font-medium.text-lg.active {
+  color: #F73859;
+}
+
 .hover\:border-primary:hover{
   --tw-border-opacity: 1;
   border-color: rgb(247 56 89 / var(--tw-border-opacity));
@@ -2599,11 +2623,6 @@ a {
 .hover\:bg-\[\#FAEFF3\]:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(250 239 243 / var(--tw-bg-opacity));
-}
-
-.hover\:text-black:hover{
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .hover\:text-primary:hover{

@@ -17,7 +17,7 @@ $(document).ready(function(){
             items:3,
             nav:true,
             dots:true,
-            autoplay: false,
+            autoplay: true,
             margin:15,
             loop: true,
             smartSpeed: 600,
@@ -65,7 +65,7 @@ $(document).ready(function(){
                     nav:true
                 },
                 767:{
-                    items:2,
+                    items:3,
                     nav:false
                 },
                 991:{

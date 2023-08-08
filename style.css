@@ -887,6 +887,11 @@ h6{
   margin-bottom: 1rem;
 }
 
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .my-6{
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -905,11 +910,6 @@ h6{
 .my-9{
   margin-top: 2.25rem;
   margin-bottom: 2.25rem;
-}
-
-.my-5{
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
 }
 
 .\!mt-\[-22\%\]{
@@ -1168,8 +1168,8 @@ h6{
   max-width: 350px;
 }
 
-.max-w-\[400px\]{
-  max-width: 400px;
+.max-w-\[413px\]{
+  max-width: 413px;
 }
 
 .max-w-\[430px\]{
@@ -1626,6 +1626,10 @@ h6{
   padding: 0.5rem;
 }
 
+.p-3{
+  padding: 0.75rem;
+}
+
 .p-4{
   padding: 1rem;
 }
@@ -1870,6 +1874,10 @@ h6{
 
 .pr-48{
   padding-right: 12rem;
+}
+
+.pr-5{
+  padding-right: 1.25rem;
 }
 
 .pr-52{
@@ -2579,6 +2587,10 @@ a {
   }
 }
 
+.pt .owl-nav {
+  display: none;
+}
+
 .hover\:border-primary:hover{
   --tw-border-opacity: 1;
   border-color: rgb(247 56 89 / var(--tw-border-opacity));
@@ -2643,6 +2655,15 @@ a {
   .sm\:justify-between{
     justify-content: space-between;
   }
+
+  .sm\:p-6{
+    padding: 1.5rem;
+  }
+
+  .sm\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media (min-width: 767px){
@@ -2689,6 +2710,11 @@ a {
 
   .md\:gap-10{
     gap: 2.5rem;
+  }
+
+  .md\:py-5{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   }
 
   .md\:pr-20{
@@ -2745,6 +2771,11 @@ a {
   .lg\:py-0{
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .lg\:py-6{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 
   .lg\:pt-0{

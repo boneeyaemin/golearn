@@ -64,9 +64,9 @@ a {
 	row-gap: 5px;
     cursor: pointer;
 }
-.mobile-menu{
-    display: none;
-}
+
+
+
 .mobile-menu {
 	padding-left: 100px;
 	padding-bottom: 20px;
@@ -191,7 +191,7 @@ a {
 	@apply  text-white hover:text-primary font-semibold;
 }
 .mobile-menu {
-	@apply rounded-l-md fixed right-0 bg-[#101921] w-52 h-64 py-3 px-5;
+	@apply rounded-l-md fixed right-0 bg-[#101921] w-52 h-80 py-3 px-5;
 }
 .mobile-menu .h-menu ul li {
 	@apply py-2 border-b-2 border-primary;

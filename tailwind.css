@@ -294,7 +294,9 @@ a {
 	background: white;
 }
 
-
-/* .container .grid:last-child .bdr2 {
-	display: none;
-} */
+.searvice-card li:last-child{
+	border: 0;
+}
+.container .grid:last-child .bdr2 {
+	background: none;
+}

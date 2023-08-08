@@ -848,6 +848,10 @@ h6{
   order: 3;
 }
 
+.col-span-1{
+  grid-column: span 1 / span 1;
+}
+
 .col-span-2{
   grid-column: span 2 / span 2;
 }
@@ -858,10 +862,6 @@ h6{
 
 .col-span-5{
   grid-column: span 5 / span 5;
-}
-
-.col-span-1{
-  grid-column: span 1 / span 1;
 }
 
 .m-5{
@@ -877,19 +877,14 @@ h6{
   margin-right: 6px;
 }
 
-.my-9{
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
+.my-0{
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .my-4{
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.my-0{
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .my-6{
@@ -900,6 +895,11 @@ h6{
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.my-9{
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
 }
 
 .\!mt-\[-22\%\]{
@@ -1062,16 +1062,12 @@ h6{
   height: 74px;
 }
 
-.h-full{
-  height: 100%;
-}
-
-.h-\[50px\]{
-  height: 50px;
-}
-
 .h-auto{
   height: auto;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .w-1{
@@ -1112,6 +1108,10 @@ h6{
 
 .w-\[190px\]{
   width: 190px;
+}
+
+.w-\[20px\]{
+  width: 20px;
 }
 
 .w-\[30px\]{
@@ -1162,6 +1162,10 @@ h6{
   max-width: 400px;
 }
 
+.max-w-\[430px\]{
+  max-width: 430px;
+}
+
 .max-w-\[434px\]{
   max-width: 434px;
 }
@@ -1172,6 +1176,10 @@ h6{
 
 .max-w-\[50px\]{
   max-width: 50px;
+}
+
+.max-w-\[555px\]{
+  max-width: 555px;
 }
 
 .max-w-\[600px\]{
@@ -1572,6 +1580,11 @@ h6{
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
+.bg-red-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+
 .bg-transparent{
   background-color: transparent;
 }
@@ -1604,6 +1617,10 @@ h6{
 
 .p-5{
   padding: 1.25rem;
+}
+
+.p-6{
+  padding: 1.5rem;
 }
 
 .px-0{
@@ -2009,6 +2026,11 @@ h6{
 .text-\[\#101921\]{
   --tw-text-opacity: 1;
   color: rgb(16 25 33 / var(--tw-text-opacity));
+}
+
+.text-\[\#3E4549\]{
+  --tw-text-opacity: 1;
+  color: rgb(62 69 73 / var(--tw-text-opacity));
 }
 
 .text-\[\#444444\]{
@@ -2521,9 +2543,13 @@ a {
   background: white;
 }
 
-/* .container .grid:last-child .bdr2 {
-	display: none;
-} */
+.searvice-card li:last-child{
+  border: 0;
+}
+
+.container .grid:last-child .bdr2 {
+  background: none;
+}
 
 .hover\:border-primary:hover{
   --tw-border-opacity: 1;
@@ -2580,10 +2606,6 @@ a {
 
   .sm\:flex{
     display: flex;
-  }
-
-  .sm\:h-auto{
-    height: auto;
   }
 
   .sm\:grid-cols-2{

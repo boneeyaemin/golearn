@@ -79,7 +79,7 @@ $(document).ready(function(){
 
     $('.filter-button li').on("click",function(){
         var button = $(this).data('filter');
-        console.log(button) $(this).addClass('active').siblings().removeClass('active');
+        $(this).addClass('active').siblings().removeClass('active');
         if(button == 'all') {
             $('.filter-item').show();
           }

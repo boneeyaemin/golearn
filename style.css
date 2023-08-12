@@ -2820,16 +2820,12 @@ a {
     line-height: 1.5rem;
   }
 
-  .md\:opacity-80{
-    opacity: 0.8;
-  }
-
-  .md\:opacity-0{
-    opacity: 0;
-  }
-
   .md\:opacity-100{
     opacity: 1;
+  }
+
+  .md\:opacity-80{
+    opacity: 0.8;
   }
 }
 

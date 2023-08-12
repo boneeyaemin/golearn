@@ -716,12 +716,12 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   left: 20%;
 }
 
-.left-\[30px\]{
-  left: 30px;
-}
-
 .left-\[40\%\]{
   left: 40%;
+}
+
+.left-\[40px\]{
+  left: 40px;
 }
 
 .left-\[50\%\]{
@@ -816,6 +816,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   top: -20px;
 }
 
+.top-\[-300px\]{
+  top: -300px;
+}
+
 .top-\[-50px\]{
   top: -50px;
 }
@@ -842,22 +846,6 @@ h6.hover\:text-primary.font-heading.font-medium.active {
 
 .top-\[60px\]{
   top: 60px;
-}
-
-.left-\[40px\]{
-  left: 40px;
-}
-
-.top-\[-120px\]{
-  top: -120px;
-}
-
-.top-\[-150px\]{
-  top: -150px;
-}
-
-.top-\[-300px\]{
-  top: -300px;
 }
 
 .\!z-30{
@@ -2760,10 +2748,6 @@ a {
 }
 
 @media (min-width: 575px){
-  .sm\:top-\[-120px\]{
-    top: -120px;
-  }
-
   .sm\:col-span-1{
     grid-column: span 1 / span 1;
   }
@@ -2787,6 +2771,10 @@ a {
   .sm\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .sm\:opacity-50{
+    opacity: 0.5;
   }
 }
 

@@ -17,7 +17,7 @@ $(document).ready(function(){
             items:3,
             nav:true,
             dots:true,
-            autoplay: true,
+            autoplay: false,
             margin:15,
             loop: true,
             smartSpeed: 600,

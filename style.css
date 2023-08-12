@@ -816,6 +816,30 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   top: 60px;
 }
 
+.right-4{
+  right: 1rem;
+}
+
+.top-6{
+  top: 1.5rem;
+}
+
+.bottom-3{
+  bottom: 0.75rem;
+}
+
+.right-28{
+  right: 7rem;
+}
+
+.top-32{
+  top: 8rem;
+}
+
+.top-28{
+  top: 7rem;
+}
+
 .\!z-30{
   z-index: 30 !important;
 }
@@ -1312,12 +1336,12 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   align-items: center;
 }
 
-.justify-end{
-  justify-content: flex-end;
-}
-
 .\!justify-end{
   justify-content: flex-end !important;
+}
+
+.justify-end{
+  justify-content: flex-end;
 }
 
 .\!justify-center{
@@ -1525,8 +1549,8 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   background-color: rgb(16 25 33 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#242C33\]\/80{
-  background-color: rgb(36 44 51 / 0.8);
+.bg-\[\#242C33\]\/20{
+  background-color: rgb(36 44 51 / 0.2);
 }
 
 .bg-\[\#323B45\]{
@@ -1642,6 +1666,14 @@ h6.hover\:text-primary.font-heading.font-medium.active {
 
 .bg-white\/20{
   background-color: rgb(255 255 255 / 0.2);
+}
+
+.bg-\[\#242C33\]\/90{
+  background-color: rgb(36 44 51 / 0.9);
+}
+
+.bg-\[\#242C33\]\/80{
+  background-color: rgb(36 44 51 / 0.8);
 }
 
 .bg-achivement{
@@ -1839,6 +1871,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   padding-bottom: 7rem;
 }
 
+.pb-3{
+  padding-bottom: 0.75rem;
+}
+
 .pb-40{
   padding-bottom: 10rem;
 }
@@ -1969,10 +2005,6 @@ h6.hover\:text-primary.font-heading.font-medium.active {
 
 .pt-7{
   padding-top: 1.75rem;
-}
-
-.pb-3{
-  padding-bottom: 0.75rem;
 }
 
 .text-left{
@@ -2697,10 +2729,6 @@ a {
   z-index: 50;
 }
 
-.group:hover .group-hover\:block{
-  display: block;
-}
-
 .group:hover .group-hover\:flex{
   display: flex;
 }
@@ -2792,19 +2820,9 @@ a {
     gap: 2.5rem;
   }
 
-  .md\:px-4{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   .md\:py-5{
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
-  }
-
-  .md\:px-2{
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 
   .md\:pr-20{
@@ -2880,23 +2898,11 @@ a {
   .lg\:pt-0{
     padding-top: 0px;
   }
-
-  .lg\:opacity-0{
-    opacity: 0;
-  }
-
-  .lg\:opacity-50{
-    opacity: 0.5;
-  }
 }
 
 @media (min-width: 1199px){
   .xl\:grid-cols-5{
     grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
-
-  .xl\:opacity-50{
-    opacity: 0.5;
   }
 
   .xl\:opacity-100{

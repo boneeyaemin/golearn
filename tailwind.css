@@ -297,20 +297,13 @@ a {
 	color: #F73859;
 }
 
-.test .owl-nav {
-	position: absolute;
-	top: 50%px;
-	right: 30%px;
-	display: flex;
-	gap: 30px;
-}
-.test .owl-nav .owl-prev {
+.tmPrevBtn  {
 	background: #FAE4EA !important;
 	color: #F73859 !important;
 	border-radius: 3px;
 
 }
-.test .owl-nav .owl-next  {
+.tmNextBtn  {
 	background: #FAE4EA !important;
 	color: #F73859 !important;
 	border-radius: 3px;

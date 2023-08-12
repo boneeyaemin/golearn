@@ -77,7 +77,7 @@ $(document).ready(function(){
             },
         });
         // slider3
-        $(".slider3").owlCarousel({
+        var testimonial = $(".slider3").owlCarousel({
             dots:false,
             autoplay: true,
             loop: true,
@@ -95,12 +95,15 @@ $(document).ready(function(){
                     items:1,
                 },
             },
-            nav:true,
-            navText: [
-                '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="26" viewBox="0 0 21 21"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M7.499 6.497L3.5 10.499l4 4.001m9-4h-13"/></svg>',
-                '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="26" viewBox="0 0 21 21"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m13.5 6.497l4 4.002l-4 4.001m-9-4h13"/></svg>'
-            ],
         });
+                // Go to the next item  / next button easyly top a newa jay
+        $('.tmNextBtn').click(function() {
+            testimonial.trigger('next.owl.carousel');
+        })
+        // Go to the previous item
+        $('.tmPrevBtn').click(function() {
+            testimonial.trigger('prev.owl.carousel', [300]);
+        })
 
        
 // button a click korla card on hoba

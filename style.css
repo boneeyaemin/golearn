@@ -684,6 +684,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   bottom: 0px;
 }
 
+.bottom-3{
+  bottom: 0.75rem;
+}
+
 .bottom-\[-20px\]{
   bottom: -20px;
 }
@@ -712,6 +716,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   left: 20%;
 }
 
+.left-\[30px\]{
+  left: 30px;
+}
+
 .left-\[40\%\]{
   left: 40%;
 }
@@ -732,8 +740,16 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   right: 0.5rem;
 }
 
+.right-28{
+  right: 7rem;
+}
+
 .right-3{
   right: 0.75rem;
+}
+
+.right-4{
+  right: 1rem;
 }
 
 .right-8{
@@ -768,12 +784,24 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   top: 5rem;
 }
 
+.top-28{
+  top: 7rem;
+}
+
 .top-3{
   top: 0.75rem;
 }
 
+.top-32{
+  top: 8rem;
+}
+
 .top-4{
   top: 1rem;
+}
+
+.top-6{
+  top: 1.5rem;
 }
 
 .top-9{
@@ -816,28 +844,20 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   top: 60px;
 }
 
-.right-4{
-  right: 1rem;
+.left-\[40px\]{
+  left: 40px;
 }
 
-.top-6{
-  top: 1.5rem;
+.top-\[-120px\]{
+  top: -120px;
 }
 
-.bottom-3{
-  bottom: 0.75rem;
+.top-\[-150px\]{
+  top: -150px;
 }
 
-.right-28{
-  right: 7rem;
-}
-
-.top-32{
-  top: 8rem;
-}
-
-.top-28{
-  top: 7rem;
+.top-\[-300px\]{
+  top: -300px;
 }
 
 .\!z-30{
@@ -1549,8 +1569,8 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   background-color: rgb(16 25 33 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#242C33\]\/20{
-  background-color: rgb(36 44 51 / 0.2);
+.bg-\[\#242C33\]\/80{
+  background-color: rgb(36 44 51 / 0.8);
 }
 
 .bg-\[\#323B45\]{
@@ -1666,14 +1686,6 @@ h6.hover\:text-primary.font-heading.font-medium.active {
 
 .bg-white\/20{
   background-color: rgb(255 255 255 / 0.2);
-}
-
-.bg-\[\#242C33\]\/90{
-  background-color: rgb(36 44 51 / 0.9);
-}
-
-.bg-\[\#242C33\]\/80{
-  background-color: rgb(36 44 51 / 0.8);
 }
 
 .bg-achivement{
@@ -2748,6 +2760,10 @@ a {
 }
 
 @media (min-width: 575px){
+  .sm\:top-\[-120px\]{
+    top: -120px;
+  }
+
   .sm\:col-span-1{
     grid-column: span 1 / span 1;
   }
@@ -2775,6 +2791,10 @@ a {
 }
 
 @media (min-width: 767px){
+  .md\:top-\[-120px\]{
+    top: -120px;
+  }
+
   .md\:col-span-1{
     grid-column: span 1 / span 1;
   }
@@ -2897,6 +2917,10 @@ a {
 
   .lg\:pt-0{
     padding-top: 0px;
+  }
+
+  .lg\:opacity-100{
+    opacity: 1;
   }
 }
 

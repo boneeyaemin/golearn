@@ -37,86 +37,6 @@
 
 
 
-a {
-    text-decoration: none;
-    display: block;
-}
-
-.header-menu {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-}
-.h-menu ul {
-	display: flex;
-	column-gap: 20px;
-}
-.menu-trigger span {
-	display: block;
-	background: black;
-	border-bottom: 2px solid;
-	width: 25px;
-}
-.menu-trigger {
-	display: none;
-	flex-direction: column;
-	row-gap: 5px;
-    cursor: pointer;
-}
-
-
-
-.mobile-menu {
-	padding-left: 100px;
-	padding-bottom: 20px;
-	padding-top: 20px;
-}
-.mobile-menu ul {
-	display: flex;
-	flex-direction: column;
-	gap: 13px;
-}
-.header-wrapper.header-menu {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-/*                                   video button / icon */
-
-.video-icon {
-	height: 50px;
-	width: 50px;
-	background: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 50%;
-	position: relative;
-}
-
-@keyframes ripple {
-	0% {
-	  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2), 0 0 0 40px rgba(255, 255, 255, 0.2);
-	}
-	100% {
-	  box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.2), 0 0 0 80px rgba(255, 255, 255, 0);
-	}
-  }
-
-/* Add an animation to the button with the infinite keyword */
-.ripple::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
-  animation: ripple 2s ease-out infinite;
-}
-
-/*    end video icon */
 
 .ttik::before {
 	content: "";
@@ -146,35 +66,85 @@ a {
 	right: 0;
 	background: #101921;
 } 
-                            /* owl-carousel */
-.courses-sec h2{
-    @apply font-normal text-white ;
-}
-.courses-sec strong{
-    @apply font-bold text-white;
-}
-.card-love i{
-    font-size: 20px;
-}
 
 
-/* owl-carousel */
+/*   video button / icon */
 
-
-.slider1 button {
-	color: white;
+.video-icon {
 	height: 50px;
 	width: 50px;
-	background: #172430;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	border-radius: 50%;
-	padding: 10px;
+	position: relative;
+}
+
+@keyframes ripple {
+	0% {
+	  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2), 0 0 0 40px rgba(255, 255, 255, 0.2);
+	}
+	100% {
+	  box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.2), 0 0 0 80px rgba(255, 255, 255, 0);
+	}
+  }
+
+.ripple::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  animation: ripple 2s ease-out infinite;
 }
 
 
+/* mobile manu      manu+mobile-manu+drop-down-menu */
+a {
+    text-decoration: none;
+    display: block;
+}
 
-/* mobile manu */
-
-
+.header-menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.h-menu ul {
+	display: flex;
+	column-gap: 20px;
+}
+.menu-trigger span {
+	display: block;
+	background: black;
+	border-bottom: 2px solid;
+	width: 25px;
+}
+.menu-trigger {
+	display: none;
+	flex-direction: column;
+	row-gap: 5px;
+    cursor: pointer;
+}
+.mobile-menu {
+	padding-left: 100px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.mobile-menu ul {
+	display: flex;
+	flex-direction: column;
+	gap: 13px;
+}
+.header-wrapper.header-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 .h-menu li a{
 	@apply   hover:text-primary;
 }
@@ -196,25 +166,6 @@ a {
 .mobile-menu .h-menu ul li {
 	@apply py-2 border-b-2 border-primary;
 }
-
-/*  */
-
-/* dropdown-manu */
-.h-menu ul ul {
-	position: absolute;
-	width: 200px;
-	flex-direction: column;
-	background: white;
-	top: 100%;
-	left: 0;
-	padding: 15px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.2);
-	z-index: 20;
-	opacity: 0;
-	visibility: hidden;
-	transform: translateY(20px);
-	transition: .5s;
-}
 .h-menu ul ul {
 	@apply lg:block hidden;
 }
@@ -229,9 +180,6 @@ a {
 	opacity: 1;
 	transform: translateY(0)
 }
-
-/* end */
-
 .menutrigger span {
 	@apply h-[2px] w-[30px] bg-black block;
 }
@@ -253,8 +201,34 @@ a {
 .mobile-menu {
 	z-index: 20;
 }
+/* dropdown-manu */
+.h-menu ul ul {
+	position: absolute;
+	width: 200px;
+	flex-direction: column;
+	background: white;
+	top: 100%;
+	left: 0;
+	padding: 15px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	z-index: 20;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(20px);
+	transition: .5s;
+}
 
-/* other */
+
+/* owl-carousel */
+.courses-sec h2{
+	@apply font-normal text-white ;
+}
+.courses-sec strong{
+	@apply font-bold text-white;
+}
+.card-love i{
+	font-size: 20px;
+}
 .slider2 .owl-dots {
 	position: absolute;
 }
@@ -269,7 +243,8 @@ a {
 	@apply !bg-primary
 }
 
-/*  */
+/* other */ 
+
 .slider1 .owl-dots {
 	position: absolute;
 }
@@ -283,6 +258,15 @@ a {
 .slider1 .owl-dot.active {
 	@apply !bg-primary
 }
+.slider1 button {
+	color: white;
+	height: 50px;
+	width: 50px;
+	background: #172430;
+	border-radius: 50%;
+	padding: 10px;
+}
+
 
 .bdr2{
 	position: relative;
@@ -311,4 +295,24 @@ a {
 }
 .hover\:text-primary.font-heading.font-medium.text-lg.active {
 	color: #F73859;
+}
+
+.test .owl-nav {
+	position: absolute;
+	top: 50%px;
+	right: 30%px;
+	display: flex;
+	gap: 30px;
+}
+.test .owl-nav .owl-prev {
+	background: #FAE4EA !important;
+	color: #F73859 !important;
+	border-radius: 3px;
+
+}
+.test .owl-nav .owl-next  {
+	background: #FAE4EA !important;
+	color: #F73859 !important;
+	border-radius: 3px;
+
 }

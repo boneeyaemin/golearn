@@ -28,6 +28,7 @@ module.exports = {
 
       backgroundImage: {
         'banner': "url('assets/img/banner-photo.png')",
+        'achivement': "url('assets/img/achivement.png')",
       }
      
     },

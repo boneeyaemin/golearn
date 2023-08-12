@@ -820,6 +820,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   z-index: 30 !important;
 }
 
+.\!z-40{
+  z-index: 40 !important;
+}
+
 .-z-10{
   z-index: -10;
 }
@@ -1136,10 +1140,6 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   width: 190px;
 }
 
-.w-\[20px\]{
-  width: 20px;
-}
-
 .w-\[30px\]{
   width: 30px;
 }
@@ -1214,6 +1214,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
 
 .max-w-\[760px\]{
   max-width: 760px;
+}
+
+.max-w-\[80px\]{
+  max-width: 80px;
 }
 
 .max-w-\[860px\]{
@@ -1306,6 +1310,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
 
 .items-center{
   align-items: center;
+}
+
+.\!justify-center{
+  justify-content: center !important;
 }
 
 .justify-center{
@@ -1509,9 +1517,8 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   background-color: rgb(16 25 33 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#242C33\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(36 44 51 / var(--tw-bg-opacity));
+.bg-\[\#242C33\]\/80{
+  background-color: rgb(36 44 51 / 0.8);
 }
 
 .bg-\[\#323B45\]{
@@ -1627,6 +1634,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
 
 .bg-white\/20{
   background-color: rgb(255 255 255 / 0.2);
+}
+
+.bg-achivement{
+  background-image: url('assets/img/achivement.png');
 }
 
 .bg-banner{
@@ -1852,6 +1863,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   padding-left: 7rem;
 }
 
+.pl-8{
+  padding-left: 2rem;
+}
+
 .pl-9{
   padding-left: 2.25rem;
 }
@@ -1886,6 +1901,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
 
 .pr-32{
   padding-right: 8rem;
+}
+
+.pr-4{
+  padding-right: 1rem;
 }
 
 .pr-48{
@@ -2013,6 +2032,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   font-size: 5px;
 }
 
+.text-\[8px\]{
+  font-size: 8px;
+}
+
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2130,6 +2153,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   text-decoration-line: underline;
 }
 
+.opacity-0{
+  opacity: 0;
+}
+
 .opacity-10{
   opacity: 0.1;
 }
@@ -2140,6 +2167,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
 
 .opacity-20{
   opacity: 0.2;
+}
+
+.opacity-25{
+  opacity: 0.25;
 }
 
 .opacity-30{
@@ -2232,6 +2263,73 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
+.ttik::before {
+  content: "";
+  background: url(assets/img/tik.svg) no-repeat scroll center / contain;
+  height: 19px;
+  width: 22px;
+  position: absolute;
+  left: 2px;
+  top: 3px;
+  color: var(--primary);
+}
+
+.ttik {
+  position: relative;
+  padding-left: 30px;
+}
+
+.bdr {
+  position: relative;
+  padding-right: 11px;
+}
+
+* .bdr::after {
+  content: "";
+  height: 20px;
+  width: 1px;
+  position: absolute;
+  top: 4px;
+  right: 0;
+  background: #101921;
+}
+
+/*   video button / icon */
+
+.video-icon {
+  height: 50px;
+  width: 50px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2), 0 0 0 40px rgba(255, 255, 255, 0.2);
+  }
+
+  100% {
+    box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.2), 0 0 0 80px rgba(255, 255, 255, 0);
+  }
+}
+
+.ripple::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  animation: ripple 2s ease-out infinite;
+}
+
+/* mobile manu      manu+mobile-manu+drop-down-menu */
+
 a {
   text-decoration: none;
   display: block;
@@ -2281,106 +2379,6 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-
-/*                                   video button / icon */
-
-.video-icon {
-  height: 50px;
-  width: 50px;
-  background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  position: relative;
-}
-
-@keyframes ripple {
-  0% {
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2), 0 0 0 40px rgba(255, 255, 255, 0.2);
-  }
-
-  100% {
-    box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.2), 0 0 0 80px rgba(255, 255, 255, 0);
-  }
-}
-
-/* Add an animation to the button with the infinite keyword */
-
-.ripple::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
-  animation: ripple 2s ease-out infinite;
-}
-
-/*    end video icon */
-
-.ttik::before {
-  content: "";
-  background: url(assets/img/tik.svg) no-repeat scroll center / contain;
-  height: 19px;
-  width: 22px;
-  position: absolute;
-  left: 2px;
-  top: 3px;
-  color: var(--primary);
-}
-
-.ttik {
-  position: relative;
-  padding-left: 30px;
-}
-
-.bdr {
-  position: relative;
-  padding-right: 11px;
-}
-
-* .bdr::after {
-  content: "";
-  height: 20px;
-  width: 1px;
-  position: absolute;
-  top: 4px;
-  right: 0;
-  background: #101921;
-}
-
-/* owl-carousel */
-
-.courses-sec h2{
-  font-weight: 400;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.courses-sec strong{
-  font-weight: 700;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.card-love i{
-  font-size: 20px;
-}
-
-/* owl-carousel */
-
-.slider1 button {
-  color: white;
-  height: 50px;
-  width: 50px;
-  background: #172430;
-  border-radius: 50%;
-  padding: 10px;
-}
-
-/* mobile manu */
 
 .h-menu li a.font-heading.font-medium.text-lg.active {
   color: #F73859;
@@ -2455,24 +2453,7 @@ a {
   padding-bottom: 0.5rem;
 }
 
-/*  */
-
-/* dropdown-manu */
-
-.h-menu ul ul {
-  position: absolute;
-  width: 200px;
-  flex-direction: column;
-  background: white;
-  top: 100%;
-  left: 0;
-  padding: 15px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  z-index: 20;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(20px);
-  transition: .5s;
+.h-menu ul ul{
   display: none;
 }
 
@@ -2495,8 +2476,6 @@ a {
   opacity: 1;
   transform: translateY(0)
 }
-
-/* end */
 
 .menutrigger span{
   display: block;
@@ -2536,7 +2515,41 @@ a {
   z-index: 20;
 }
 
-/* other */
+/* dropdown-manu */
+
+.h-menu ul ul {
+  position: absolute;
+  width: 200px;
+  flex-direction: column;
+  background: white;
+  top: 100%;
+  left: 0;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  z-index: 20;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: .5s;
+}
+
+/* owl-carousel */
+
+.courses-sec h2{
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.courses-sec strong{
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.card-love i{
+  font-size: 20px;
+}
 
 .slider2 .owl-dots {
   position: absolute;
@@ -2561,7 +2574,7 @@ a {
   background-color: rgb(247 56 89 / var(--tw-bg-opacity)) !important;
 }
 
-/*  */
+/* other */
 
 .slider1 .owl-dots {
   position: absolute;
@@ -2584,6 +2597,15 @@ a {
 .slider1 .owl-dot.active{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(247 56 89 / var(--tw-bg-opacity)) !important;
+}
+
+.slider1 button {
+  color: white;
+  height: 50px;
+  width: 50px;
+  background: #172430;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 .bdr2{
@@ -2626,6 +2648,26 @@ a {
   color: #F73859;
 }
 
+.test .owl-nav {
+  position: absolute;
+  top: 50%px;
+  right: 30%px;
+  display: flex;
+  gap: 30px;
+}
+
+.test .owl-nav .owl-prev {
+  background: #FAE4EA !important;
+  color: #F73859 !important;
+  border-radius: 3px;
+}
+
+.test .owl-nav .owl-next  {
+  background: #FAE4EA !important;
+  color: #F73859 !important;
+  border-radius: 3px;
+}
+
 .hover\:border-primary:hover{
   --tw-border-opacity: 1;
   border-color: rgb(247 56 89 / var(--tw-border-opacity));
@@ -2649,6 +2691,10 @@ a {
 
 .group:hover .group-hover\:z-50{
   z-index: 50;
+}
+
+.group:hover .group-hover\:block{
+  display: block;
 }
 
 .group:hover .group-hover\:flex{
@@ -2742,6 +2788,11 @@ a {
     gap: 2.5rem;
   }
 
+  .md\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .md\:py-5{
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
@@ -2764,8 +2815,21 @@ a {
     font-size: 64px;
   }
 
+  .md\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .md\:opacity-80{
     opacity: 0.8;
+  }
+
+  .md\:opacity-0{
+    opacity: 0;
+  }
+
+  .md\:opacity-100{
+    opacity: 1;
   }
 }
 
@@ -2812,16 +2876,16 @@ a {
     padding-top: 0px;
   }
 
+  .lg\:opacity-0{
+    opacity: 0;
+  }
+
   .lg\:opacity-50{
     opacity: 0.5;
   }
 }
 
 @media (min-width: 1199px){
-  .xl\:order-1{
-    order: 1;
-  }
-
   .xl\:grid-cols-5{
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }

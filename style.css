@@ -1862,6 +1862,11 @@ h6{
   padding-bottom: 2.25rem;
 }
 
+.py-14{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
 .pb-2{
   padding-bottom: 0.5rem;
 }
@@ -2008,6 +2013,10 @@ h6{
 
 .pt-7{
   padding-top: 1.75rem;
+}
+
+.pr-3{
+  padding-right: 0.75rem;
 }
 
 .text-left{
@@ -2832,6 +2841,11 @@ a {
   .md\:py-5{
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
+  }
+
+  .md\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .md\:pr-20{

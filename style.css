@@ -1202,10 +1202,6 @@ h6{
   max-width: 200px;
 }
 
-.max-w-\[320px\]{
-  max-width: 320px;
-}
-
 .max-w-\[350px\]{
   max-width: 350px;
 }
@@ -1254,16 +1250,16 @@ h6{
   max-width: 32rem;
 }
 
+.max-w-md{
+  max-width: 28rem;
+}
+
 .max-w-sm{
   max-width: 24rem;
 }
 
 .max-w-xs{
   max-width: 20rem;
-}
-
-.max-w-md{
-  max-width: 28rem;
 }
 
 .border-collapse{
@@ -1332,6 +1328,10 @@ h6{
 
 .flex-col{
   flex-direction: column;
+}
+
+.flex-col-reverse{
+  flex-direction: column-reverse;
 }
 
 .flex-wrap{
@@ -2739,6 +2739,10 @@ a {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.group:nth-child(odd) .group-odd\:order-3{
+  order: 3;
+}
+
 .group:hover .group-hover\:z-50{
   z-index: 50;
 }
@@ -2884,12 +2888,20 @@ a {
     order: 1;
   }
 
+  .lg\:order-2{
+    order: 2;
+  }
+
   .lg\:mt-0{
     margin-top: 0px;
   }
 
   .lg\:block{
     display: block;
+  }
+
+  .lg\:max-w-\[600px\]{
+    max-width: 600px;
   }
 
   .lg\:grid-cols-2{
@@ -2906,6 +2918,10 @@ a {
 
   .lg\:grid-cols-6{
     grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .lg\:flex-col{
+    flex-direction: column;
   }
 
   .lg\:py-0{
@@ -2925,15 +2941,19 @@ a {
   .lg\:opacity-100{
     opacity: 1;
   }
+
+  .group:nth-child(odd) .lg\:group-odd\:order-3{
+    order: 3;
+  }
 }
 
 @media (min-width: 1199px){
-  .xl\:grid-cols-5{
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
-
   .xl\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .xl\:grid-cols-5{
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .xl\:opacity-100{

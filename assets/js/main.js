@@ -82,19 +82,7 @@ $(document).ready(function(){
             autoplay: true,
             loop: true,
             smartSpeed: 600,
-            margin:30,
-            responsiveClass:true,
-            responsive:{
-                0:{
-                    items:1,
-                },
-                767:{
-                    items:1,
-                },
-                991:{
-                    items:1,
-                },
-            },
+            items:1,
         });
                 // Go to the next item  / next button easyly top a newa jay
         $('.tmNextBtn').click(function() {

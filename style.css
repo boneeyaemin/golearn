@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700;800&family=Roboto:wght@400;500;700&display=swap');
 
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
@@ -439,24 +437,16 @@ video {
 }
 
 body{
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.125rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
   color: rgb(62 69 73 / var(--tw-text-opacity));
 }
 
-body.hover\:text-primary.font-heading.font-medium.active {
-  color: #F73859;
-}
-
 h1, h2, h3, h4, h5, h6{
-  font-family: Khula;
+  font-family: 'Khula', sans-serif;
   font-weight: 600;
-}
-
-h1.hover\:text-primary.font-medium.text-lg.active, h2.hover\:text-primary.font-medium.text-lg.active, h3.hover\:text-primary.font-medium.text-lg.active, h4.hover\:text-primary.font-medium.text-lg.active, h5.hover\:text-primary.font-medium.text-lg.active, h6.hover\:text-primary.font-medium.text-lg.active {
-  color: #F73859;
 }
 
 h1{
@@ -494,10 +484,6 @@ h5{
 h6{
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-h6.hover\:text-primary.font-heading.font-medium.active {
-  color: #F73859;
 }
 
 *, ::before, ::after{
@@ -1080,6 +1066,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   height: 0.25rem;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
 .h-2{
   height: 0.5rem;
 }
@@ -1134,6 +1124,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
 
 .w-1{
   width: 0.25rem;
+}
+
+.w-10{
+  width: 2.5rem;
 }
 
 .w-2{
@@ -1463,6 +1457,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   border-radius: 0.5rem;
 }
 
+.rounded-md{
+  border-radius: 0.375rem;
+}
+
 .rounded-sm{
   border-radius: 0.125rem;
 }
@@ -1538,6 +1536,11 @@ h6.hover\:text-primary.font-heading.font-medium.active {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity)) !important;
 }
 
+.\!bg-gray-100{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(250 228 234 / var(--tw-bg-opacity)) !important;
+}
+
 .\!bg-primary{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(247 56 89 / var(--tw-bg-opacity)) !important;
@@ -1569,10 +1572,6 @@ h6.hover\:text-primary.font-heading.font-medium.active {
 .bg-\[\#F73859\]{
   --tw-bg-opacity: 1;
   background-color: rgb(247 56 89 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#F73859\]\/10{
-  background-color: rgb(247 56 89 / 0.1);
 }
 
 .bg-\[\#F73859\]\/50{
@@ -1611,7 +1610,7 @@ h6.hover\:text-primary.font-heading.font-medium.active {
 
 .bg-gray-100{
   --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  background-color: rgb(250 228 234 / var(--tw-bg-opacity));
 }
 
 .bg-gray-200{
@@ -1641,6 +1640,10 @@ h6.hover\:text-primary.font-heading.font-medium.active {
 .bg-primary{
   --tw-bg-opacity: 1;
   background-color: rgb(247 56 89 / var(--tw-bg-opacity));
+}
+
+.bg-primary\/10{
+  background-color: rgb(247 56 89 / 0.1);
 }
 
 .bg-red-300{
@@ -2016,11 +2019,11 @@ h6.hover\:text-primary.font-heading.font-medium.active {
 }
 
 .font-heading{
-  font-family: Khula;
+  font-family: 'Khula', sans-serif;
 }
 
 .font-pragraph{
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
 }
 
 .text-2xl{
@@ -2131,6 +2134,11 @@ h6.hover\:text-primary.font-heading.font-medium.active {
 
 .font-semibold{
   font-weight: 600;
+}
+
+.\!text-primary{
+  --tw-text-opacity: 1 !important;
+  color: rgb(247 56 89 / var(--tw-text-opacity)) !important;
 }
 
 .text-\[\#101921\]{
@@ -2424,10 +2432,6 @@ a {
   align-items: center;
 }
 
-.h-menu li a.font-heading.font-medium.text-lg.active {
-  color: #F73859;
-}
-
 .h-menu li a:hover{
   --tw-text-opacity: 1;
   color: rgb(247 56 89 / var(--tw-text-opacity));
@@ -2463,10 +2467,6 @@ a {
   font-weight: 600;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.mobile-menu .h-menu li a.font-heading.font-medium.text-lg.active {
-  color: #F73859;
 }
 
 .mobile-menu .h-menu li a:hover{
@@ -2688,20 +2688,22 @@ a {
   display: none;
 }
 
-.hover\:text-primary.font-heading.font-medium.text-lg.active {
-  color: #F73859;
+.filter-button li.active{
+  --tw-text-opacity: 1;
+  color: rgb(247 56 89 / var(--tw-text-opacity));
 }
 
-.tmPrevBtn  {
-  background: #FAE4EA !important;
-  color: #F73859 !important;
-  border-radius: 3px;
-}
-
-.tmNextBtn  {
-  background: #FAE4EA !important;
-  color: #F73859 !important;
-  border-radius: 3px;
+.tmPrevBtn,.tmNextBtn{
+  display: flex;
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem;
+  background-color: rgb(247 56 89 / 0.1);
+  --tw-text-opacity: 1;
+  color: rgb(247 56 89 / var(--tw-text-opacity));
 }
 
 .hover\:border-primary:hover{
@@ -2709,9 +2711,8 @@ a {
   border-color: rgb(247 56 89 / var(--tw-border-opacity));
 }
 
-.hover\:bg-\[\#FAEFF3\]:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 239 243 / var(--tw-bg-opacity));
+.hover\:bg-primary\/10:hover{
+  background-color: rgb(247 56 89 / 0.1);
 }
 
 .hover\:text-primary:hover{

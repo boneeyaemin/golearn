@@ -15,15 +15,18 @@ module.exports = {
     extend: {
 
       colors: {
-        'primary': " #F73859",
+        'primary': "#F73859",
         'manu': "#101921",
         'b-paragraphy': "#E0E0E0",                    
         'w-paragraphy': "#3E4549",
         'icon': "#555555",
+        'gray': {
+          100: '#FAE4EA',
+        }
       },
       fontFamily:{
-        pragraph: ['Roboto', ],
-        heading: ['Khula', ],
+        pragraph: ["'Roboto', sans-serif"],
+        heading: ["'Khula', sans-serif"],
       },
 
       backgroundImage: {

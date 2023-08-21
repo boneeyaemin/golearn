@@ -128,11 +128,12 @@ a {
 	flex-direction: column;
 	row-gap: 5px;
     cursor: pointer;
-}
+}									
 .mobile-menu {
-	padding-left: 100px;
 	padding-bottom: 20px;
 	padding-top: 20px;
+	width: 100%;
+	background: #101921;
 }
 .mobile-menu ul {
 	display: flex;
@@ -144,9 +145,6 @@ a {
 	justify-content: space-between;
 	align-items: center;
 }
-.h-menu li a{
-	@apply   hover:text-primary;
-}
 .about-font-img{
 	@apply max-w-[434px] w-full h-full right-0 ;
 }
@@ -156,20 +154,20 @@ a {
 .header-menu .h-menu ul {
 	@apply  block md:flex gap-x-10 ;
 }
-.mobile-menu .h-menu li a{
-	@apply  text-white hover:text-primary font-semibold;
+.mobile-menu .h-menu li a {
+	@apply  font-semibold p-3;
 }
 .mobile-menu {
-	@apply rounded-l-md fixed right-0 bg-[#101921] w-52 h-80 py-3 px-5;
+	@apply rounded-l-md fixed right-0 md:bg-[#101921] w-full h-full ;
 }
 .mobile-menu .h-menu ul li {
-	@apply py-2 border-b-2 border-primary;
+	@apply border-b-2 border-[#f4f5f7]/10  text-white;
 }
 .h-menu ul ul {
 	@apply lg:block hidden;
 }
-.h-menu > ul > li {
-	padding: 24px 0;
+.h-menu li:hover {
+	@apply bg-primary;
 }
 .h-menu li {
 	position: relative;

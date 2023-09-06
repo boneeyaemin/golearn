@@ -40,16 +40,16 @@
 .ttik::before {
 	content: "";
 	background: url(assets/img/tik.svg) no-repeat scroll center / contain;
-	height: 19px;
-	width: 22px;
+	height: 15px;
+	width: 18px;
 	position: absolute;
-	left: 2px;
-	top: 3px;
+	left: 3px;
+	top: 5px;
 	color: var(--primary);
 }
 .ttik {
 	position: relative;
-	padding-left: 30px;
+	padding-left: 29px;
 }
 
 .bdr {
@@ -167,7 +167,7 @@ a {
 	@apply lg:block hidden;
 }
 .h-menu li:hover {
-	@apply bg-primary;
+	@apply hover:text-primary;
 }
 .h-menu li {
 	position: relative;
@@ -175,7 +175,7 @@ a {
 .h-menu li:hover ul {
 	visibility: visible;
 	opacity: 1;
-	transform: translateY(0)
+	transform: translateY(19px);
 }
 .menutrigger span {
 	@apply h-[2px] w-[30px] bg-black block;
@@ -296,4 +296,38 @@ a {
 
 .tmPrevBtn,.tmNextBtn  {
 	@apply text-primary rounded-md bg-primary/10 h-10 w-10 flex justify-center items-center cursor-pointer;
+}
+
+/* rotation */
+.rotation {
+	position: relative;
+	animation: rotation 8s linear infinite;
+  }
+  
+  @keyframes rotation{
+	  from{
+		  transform: rotate(0deg);
+	  }
+	  to{
+		  transform: rotate(360deg);
+	  }
+  }
+:focus-visible {
+	outline: none;
+}
+.rating::before {
+	position: absolute;
+	content: "";
+	width: 5px;
+	height: 5px;
+	background-color: black;
+	border-radius: 50%;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	right: 0;
+}
+.rating {
+	position: relative;
+	padding-left: 10px;
 }

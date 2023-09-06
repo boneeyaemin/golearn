@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 
                     //  owl-carousel owl-carousel
-        $(".slider1").owlCarousel({
+        var slider1 = $(".slider1").owlCarousel({
             items:3,
             nav:true,
             dots:true,
@@ -36,12 +36,18 @@ $(document).ready(function(){
                     nav:false
                 },
             },
+            
             nav:true,
-            navText: [
-                '<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" /></svg>',
-                '<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>'
-            ],
+            
         });
+        
+        // other
+        $('.tmPrevBtn').click(function() {
+            slider1.trigger('next.owl.carousel');
+        })  
+        $('.tmNextBtn').click(function() {
+            slider1.trigger('prev.owl.carousel', [300]);
+        }) 
 
 // manu manu
         $(".h-menu").clone().prependTo(".mobile-menu");
@@ -107,7 +113,14 @@ $(document).ready(function(){
            $('.filter-item.' + button ).show();
        }
     });
-            
+     
+    
+    // count er js
+    $('.counter').counterUp({
+        delay: 10,
+        time: 5000
+    });
+
 
 
 });

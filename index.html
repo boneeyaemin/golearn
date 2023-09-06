@@ -39,9 +39,9 @@
                     </div>
                 </div>
                 <div class="sm:flex hidden items-center gap-3 justify-center">
-                    <a class="bdr font-heading font-semibold text-lg  pr-2  text-manu" href="">Login</a>
+                    <a class="bdr font-heading font-semibold text-lg  pr-2  text-manu hover:text-primary" href="">Login</a>
                     <div class="gap-[7px] bdr flex">
-                        <a class="text-manu font-heading font-semibold text-lg" href="">Register</a>
+                        <a class="text-manu font-heading font-semibold text-lg hover:text-primary" href="">Register</a>
                         <a class="px-2 text-xl hover:text-primary  text-icon" href="">
                             <i class="fa-solid fa-cart-shopping "></i>
                         </a>
@@ -65,7 +65,7 @@
     <!-- manu -->
     <div class="header-sec">
         <div class="container">
-            <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center py-3">
                 <div class="logo block">
                     <div class=" flex gap-7">
                         <a href="">
@@ -81,12 +81,12 @@
                 <div class="header-menu">
                     <div class="h-menu">
                         <ul >
-                            <li class=" font-heading font-semibold text-lg" ><a href="">Home</a>
+                            <li class=" font-heading font-semibold text-lg hover:text-primary" ><a href="">Home</a>
                                 <ul>
-                                   <li><a href="">line1</a></li>
-                                   <li><a href="">line2</a></li>
-                                   <li><a href="">lene3</a></li>
-                                   <li><a href="">line4</a></li>
+                                   <li class="text-black"><a href="">line1</a></li>
+                                   <li class="text-black"><a href="">line2</a></li>
+                                   <li class="text-black"><a href="">lene3</a></li>
+                                   <li class="text-black"><a href="">line4</a></li>
                                 </ul>
                             </li>
                             <li class=" font-heading font-semibold text-lg" ><a href="">About</a></li>
@@ -113,7 +113,7 @@
     
     <!-- banner -->
 
-    <div class="bg-[#031121]/90 relative ">
+    <div class="bg-[#031121]/90 relative overflow-hidden">
         <img class="absolute top-0 left-0 h-full w-full -z-10 object-cover" src="assets/img/banner-photo.png" alt="">  
         <div class="container">
             <div class="grid md:grid-cols-2 items-center justify-center py-10">
@@ -134,7 +134,7 @@
                 </div>
                 <!-- video icon -->
                 <div class="relative">
-                    <img class="hidden md:block" src="assets/img/douth-group.png" alt="">
+                    <img class="hidden md:block rotation" src="assets/img/douth-group.png" alt="">
                     <div class="absolute top-[50%] translate-x-[-50%] translate-y-[-50%] left-[50%]">
                         <div class="relative hidden md:flex justify-center items-center">
                             <a href="https://vimeo.com/836902788" class="video-icon ripple">
@@ -167,7 +167,7 @@
                             Read More
                         </a>
                     </div>
-                    <img class="absolute -bottom-4 left-[60%]" src="assets/img/tir.png" alt="">
+                    <img class="absolute -bottom-4 left-[60%] rotation h-7 w-7" src="assets/img/tir.png" alt="">
                 </div>
                 <div class="order-2 relative">
                     <img class="absolute top-0 right-0" src="assets/img/about-bg.png" alt="">
@@ -180,13 +180,21 @@
 
     <!-- owl-carousel -->
 
-    <div class="py-20 bg-black">
+    <div class="py-20 bg-black relative">
         <div class="container">
             <div class="">
                 <div class="courses-sec text-white text-center max-w-2xl m-auto flex flex-col gap-3">
                     <span class="text-lg font-medium">Courses</span>
                     <h2>Find the right courses , Explore our <span class="text-white text-[40px] font-extrabold ">Popular courses</span></h2>
                 </div>
+                <div class="absolute bottom-6 left-[50%] translate-x-[-50%] flex gap-4">
+                <div class="tmPrevBtn  bg-black border border-white flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="26" viewBox="0 0 21 21"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M7.499 6.497L3.5 10.499l4 4.001m9-4h-13"/></svg>
+                </div>
+                <div class="tmNextBtn bg-black border border-white flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="26" viewBox="0 0 21 21"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m13.5 6.497l4 4.002l-4 4.001m-9-4h13"/></svg>
+                </div>
+            </div>
                 
                 <div class="pt-20  slider1 owl-carousel">
                     <div class="group pink relative z-10">
@@ -196,7 +204,7 @@
                                
                             </div>
                             <i class="absolute group-hover:z-50 text-white group-hover:text-[#F73859] top-[2%] right-[2%] bg-white/20 p-2 rounded-full transition-all duration-300 fa-solid fa-heart"></i>
-                            <div class="hidden  z-30 group-hover:flex flex-col gap-1 absolute text-left transition-all duration-300 bg-manu/40 top-0 left-0 w-full h-full  items-center justify-center">
+                            <div class="hidden  z-30 group-hover:flex flex-col gap-1 absolute text-left transition-all duration-700 bg-manu/40 top-0 left-0 w-full h-full  items-start px-5 justify-center">
                                 <ul class="flex gap-x-3">
                                     <li>
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -247,12 +255,12 @@
                                     <span class="text-black sm:text-base text-[10px] font-medium">John Smith Doe</span>
                                 </div>
                                 <div class="">
-                                    <a class="bg-[#F8F8F8] group-hover:bg-[#F73859]/40 text-black text-sm px-3 py-2 rounded-[3px] inline-block transition-all duration-300" href="">
+                                    <a class="bg-[#F8F8F8] group-hover:bg-[#F73859]/40 text-black text-sm px-3 py-2 rounded-[3px] inline-block transition-all duration-700" href="">
                                         Creative & Design
                                     </a>
                                 </div>
                             </div>
-                            <h5 class="text-lg pt-7 group-hover:text-primary font-heading font-bold transition-all duration-300 pr-7">Perofessional UI/UX Design For Beginner to Expert</h5>
+                            <h5 class="text-lg pt-7 group-hover:text-primary font-heading font-bold transition-all duration-700 pr-7 ">Perofessional UI/UX Design For Beginner to Expert</h5>
                             <div class="absolute bottom-0 right-0">
                                 <svg class="w-[76px] h-[74px]" viewBox="0 0 92 89" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path opacity="0.07" fill-rule="evenodd" clip-rule="evenodd" d="M63.326 0.0517578C73.3773 0.0517578 82.8803 2.3996 91.3164 6.57679V88.0518H5.23515C1.97113 80.4279 0.164062 72.0318 0.164062 63.2137C0.164062 28.3303 28.4426 0.0517578 63.326 0.0517578Z" fill="#101921"/>
@@ -268,7 +276,7 @@
                                
                             </div>
                             <i class="absolute group-hover:z-50 text-white group-hover:text-[#F73859] top-[2%] right-[2%] bg-white/20 p-2 rounded-full transition-all duration-300 fa-solid fa-heart"></i>
-                            <div class="hidden  z-30 group-hover:flex flex-col gap-1 absolute text-left transition-all duration-300 bg-manu/40 top-0 left-0 w-full h-full  items-center justify-center">
+                            <div class="hidden  z-30 group-hover:flex flex-col gap-1 absolute text-left transition-all duration-700 bg-manu/40 top-0 left-0 w-full h-full  items-start px-5 justify-center">
                                 <ul class="flex gap-x-3">
                                     <li>
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -319,12 +327,12 @@
                                     <span class="text-black sm:text-base text-[10px] font-medium">John Smith Doe</span>
                                 </div>
                                 <div class="">
-                                    <a class="bg-[#F8F8F8] group-hover:bg-[#F73859]/40 text-black text-sm px-3 py-2 rounded-[3px] inline-block transition-all duration-300" href="">
+                                    <a class="bg-[#F8F8F8] group-hover:bg-[#F73859]/40 text-black text-sm px-3 py-2 rounded-[3px] inline-block transition-all duration-700" href="">
                                         Creative & Design
                                     </a>
                                 </div>
                             </div>
-                            <h5 class="text-lg pt-7 group-hover:text-primary font-heading font-bold transition-all duration-300 pr-7">Perofessional UI/UX Design For Beginner to Expert</h5>
+                            <h5 class="text-lg pt-7 group-hover:text-primary font-heading font-bold transition-all duration-700 pr-7">Perofessional UI/UX Design For Beginner to Expert</h5>
                             <div class="absolute bottom-0 right-0">
                                 <svg class="w-[76px] h-[74px]" viewBox="0 0 92 89" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path opacity="0.07" fill-rule="evenodd" clip-rule="evenodd" d="M63.326 0.0517578C73.3773 0.0517578 82.8803 2.3996 91.3164 6.57679V88.0518H5.23515C1.97113 80.4279 0.164062 72.0318 0.164062 63.2137C0.164062 28.3303 28.4426 0.0517578 63.326 0.0517578Z" fill="#101921"/>
@@ -340,7 +348,7 @@
                                
                             </div>
                             <i class="absolute group-hover:z-50 text-white group-hover:text-[#F73859] top-[2%] right-[2%] bg-white/20 p-2 rounded-full transition-all duration-300 fa-solid fa-heart"></i>
-                            <div class="hidden  z-30 group-hover:flex flex-col gap-1 absolute text-left transition-all duration-300 bg-manu/40 top-0 left-0 w-full h-full  items-center justify-center">
+                            <div class="hidden  z-30 group-hover:flex flex-col gap-1 absolute text-left transition-all duration-700 bg-manu/40 top-0 left-0 w-full h-full  items-start px-5 justify-center ">
                                 <ul class="flex gap-x-3">
                                     <li>
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -391,12 +399,12 @@
                                     <span class="text-black sm:text-base text-[10px] font-medium">John Smith Doe</span>
                                 </div>
                                 <div class="">
-                                    <a class="bg-[#F8F8F8] group-hover:bg-[#F73859]/40 text-black text-sm px-3 py-2 rounded-[3px] inline-block transition-all duration-300" href="">
+                                    <a class="bg-[#F8F8F8] group-hover:bg-[#F73859]/40 text-black text-sm px-3 py-2 rounded-[3px] inline-block transition-all duration-700" href="">
                                         Creative & Design
                                     </a>
                                 </div>
                             </div>
-                            <h5 class="text-lg pt-7 pr-7 group-hover:text-primary font-heading font-bold  transition-all duration-300">Perofessional UI/UX Design For Beginner to Expert</h5>
+                            <h5 class="text-lg pt-7 pr-7 group-hover:text-primary font-heading font-bold  transition-all duration-700">Perofessional UI/UX Design For Beginner to Expert</h5>
                             <div class="absolute bottom-0 right-0">
                                 <svg class="w-[76px] h-[74px]" viewBox="0 0 92 89" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path opacity="0.07" fill-rule="evenodd" clip-rule="evenodd" d="M63.326 0.0517578C73.3773 0.0517578 82.8803 2.3996 91.3164 6.57679V88.0518H5.23515C1.97113 80.4279 0.164062 72.0318 0.164062 63.2137C0.164062 28.3303 28.4426 0.0517578 63.326 0.0517578Z" fill="#101921"/>
@@ -427,8 +435,8 @@
                 </div>
                 <div class="flex flex-col gap-4 gp justify-center ">
                     <span class="font-medium text-left">Features </span>
-                    <h1 class="text-[40px] font-normal">Why choose Us ? Let’s see Our
-                    <span class="text-primary font-extrabold">Main Features</span> </h1>
+                    <h1 class="text-[40px] font-normal ">Why choose Us ? Let’s see Our
+                    <span class="text-primary font-extrabold leading-[60px]">Main Features</span> </h1>
                     <p class="text-base ">Exerci tation ullamcorper suscipit lobortis aliquip ex ea commodo consequat duis autem vel eum iriure augue duis dolore. Exerci tation ullamcorper suscipit lobortis. nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure augue duis.</p>
                     <div class="py-4 flex flex-col featcher">
                         <div class="flex gap-3 justify-center items-center ">
@@ -512,33 +520,33 @@
                 <div class="bdr2 flex flex-col gap-2 items-center justify-center md:my-0 my-8 ">
                     <img class="max-w-[50px]" src="assets/img/Trophy.png" alt="">
                     <p class="text-lg font-medium text-white pt-2">Awards</p>
-                    <p class="text-[30px] font-bold text-white">20,568</p>
+                    <p class="text-[30px] font-bold text-white counter">20,568</p>
                 </div>
                 <div class="bdr2 flex flex-col gap-2 items-center justify-center md:my-0 my-8">
                     <img class="max-w-[50px]" src="assets/img/2.png" alt="">
                     <p class="text-lg font-medium text-white pt-2">Awards</p>
-                    <p class="text-[30px] font-bold text-white">20,568</p>
+                    <p class="text-[30px] font-bold text-white counter">20,568</p>
                 </div>
                 <div class="bdr2 flex flex-col gap-2 items-center justify-center md:my-0 my-8">
                     <img class="max-w-[50px]" src="assets/img/3.png" alt="">
                     <p class="text-lg font-medium text-white pt-2">Awards</p>
-                    <p class="text-[30px] font-bold text-white">20,568</p>
+                    <p class="text-[30px] font-bold text-white counter">20,568</p>
                 </div>
                 <div class="bdr2 flex flex-col gap-2 items-center justify-center md:my-0 my-8">
                     <img class="max-w-[50px]" src="assets/img/4.png" alt="">
                     <p class="text-lg font-medium text-white pt-2">Awards</p>
-                    <p class="text-[30px] font-bold text-white">20,568</p>
+                    <p class="text-[30px] font-bold text-white counter">20,568</p>
                 </div>
                 <div class=" flex flex-col gap-2 items-center justify-center">
                     <img class="max-w-[50px]" src="assets/img/5.png" alt="">
                     <p class="text-lg font-medium text-white pt-2">Awards</p>
-                    <p class="text-[30px] font-bold text-white">20,568</p>
+                    <p class="text-[30px] font-bold text-white counter">20,568</p>
                 </div>
             </div>
         </div>
-        <img class="absolute top-4 left-3  z-40" src="assets/img/a-1.png" alt="">
-        <img class="absolute bottom-3 left-3  z-40" src="assets/img/a-2.png" alt="">
-        <img class="absolute top-28 right-28  z-40 opacity-50 md:opacity-100" src="assets/img/a-3.png" alt="">
+        <img class="absolute -top-[300px] left-6  z-40  rotation" src="assets/img/a-1.png" alt="">
+        <img class="absolute bottom-3 left-3  z-40 rotation" src="assets/img/a-2.png" alt="">
+        <img class="absolute -right-[1000px] bottom-[330px] z-40 opacity-50 md:opacity-100 rotation" src="assets/img/a-3.png" alt="">
     </div>
 
     <!-- course -->
@@ -550,41 +558,98 @@
                 <h1 class="text-[40px] font-normal">Find the right courses , Explore our <br> <span class="text-primary font-extrabold">Latest Courses</span></h1>
             </div>
             <div class="grid lg:grid-cols-3 grid-cols-1 py-0  gap-6">
-                <div class="lg:py-0 my-5 relative hover:love-[text-primary] max-w-[435px] m-auto group hover:shadow-none shadow-[0px_70px_50px_-20px_rgba(0,0,0,0.07)]  transition-all bg-white duration-300  rounded-lg ">
-                    <div class="relative group">
-                        <img  class="w-full" src="assets/img/card-photo.png" alt="">
-                        <a href="">
-                            <p class="absolute top-3 right-3 px-4 py-2 text-sm bg-[#FFFFFF] rounded-2xl">Creative & Design</p>
-                        </a>
-                        <i class="group-hover:text-primary fa-solid fa-heart absolute bottom-[-20px] text-[#8C9194] love translate-x-[-50%] left-[50%] bg-[#FFFFFF] p-2 rounded-full  "></i>
-                    </div>
-                    <div class="p-5">
-                        <div class="flex justify-between items-center border-b-[1px] border-[#E0E0E0] pb-2">
-                            <div class="text-[#444444] flex justify-between items-center">
-                                <span class="md:text-base text-[10px]">Advance <i class="fa-solid fa-circle text-[8px] text-primary  px-2"></i> 13 lecture</span>
+
+                <div class="relative group">
+                    <div class="lg:py-0 my-5 relative hover:love-[text-primary] max-w-[435px] m-auto group hover:shadow-none shadow-[0px_70px_50px_-20px_rgba(0,0,0,0.07)]  transition-all bg-white duration-300  rounded-lg group-hover:opacity-0 ">
+                        <div class="relative group">
+                            <img  class="w-full" src="assets/img/card-photo.png" alt="">
+                            <a href="">
+                                <p class="absolute top-3 right-3 px-4 py-2 text-sm bg-[#FFFFFF] rounded-2xl">Creative & Design</p>
+                            </a>
+                            <i class="group-hover:text-primary fa-solid fa-heart absolute bottom-[-20px] text-[#8C9194] love translate-x-[-50%] left-[50%] bg-[#FFFFFF] p-2 rounded-full  "></i>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex justify-between items-center border-b-[1px] border-[#E0E0E0] pb-2">
+                                <div class="text-[#444444] flex justify-between items-center">
+                                    <span class="md:text-base text-[10px]">Advance <i class="fa-solid fa-circle text-[8px] text-primary  px-2"></i> 13 lecture</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <s class="text-lg font-medium">$70</s>
+                                    <span class="text-manu font-semibold text-2xl group-hover:text-primary">$50</span>
+                                </div>
                             </div>
-                            <div class="flex items-center gap-2">
-                                <s class="text-lg font-medium">$70</s>
-                                <span class="text-manu font-semibold text-2xl group-hover:text-primary">$50</span>
+                            <a href="">
+                                <h4 class="text-xl font-semibold py-2">Fundamental of Design and New Design Thinking of idea</h4>  
+                            </a>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-4 ">
+                                    <i class="fa-solid fa-user text-sm"></i>
+                                    <a href="">
+                                        <span class="text-base text-[#444444]">John Smith Doe</span>
+                                    </a>
+                                </div>
+                                <div class="text-base flex items-center gap-3">
+                                    <i class="fa-solid fa-star text-[#EB8D00]"></i>
+                                    <span class="  ">4.5 (73)</span>
+                                </div>
                             </div>
                         </div>
-                        <a href="">
-                            <h4 class="text-xl font-semibold py-2">Fundamental of Design and New Design Thinking of idea</h4>  
+                    </div>
+                    <div class="p-6 text-base bg-[#c4c6c8] flex flex-col gap-5 absolute bottom-0 left-0 opacity-0 group-hover:opacity-100 invisible hover:visible overflow-y-auto h-full w-full rounded-lg transition-all duration-700">
+                        <h5 class="font-semibold text-xl text-black">Fundamental of Design and New Design Thinking of idea</h5>
+                        <a href="" class="flex gap-5 items-center text-base">
+                            <i class="fa-solid fa-user"></i>
+                            <p> John Smith Doe</p>
                         </a>
-                        <div class="flex items-center justify-between">
-                            <div class="flex items-center gap-4 ">
-                                <i class="fa-solid fa-user text-sm"></i>
-                                <a href="">
-                                    <span class="text-base text-[#444444]">John Smith Doe</span>
-                                </a>
+                        <div class="flex justify-between items-center">
+                            <div class="text-base flex gap-2 items-center leading-4">
+                                <i class="fa-solid fa-star text-[#eb8d00]"></i>
+                                <p class="">4.5 <br> (73)</p>
                             </div>
-                            <div class="text-base flex items-center gap-3">
-                                <i class="fa-solid fa-star text-[#EB8D00]"></i>
-                                <span class="  ">4.5 (73)</span>
+                            <div class="leading-4 rating">
+                                <p>13 <br> lecture</p>
                             </div>
+                            <div class="leading-4 rating">
+                                <p>7.5 <br> Hour</p>
+                            </div>
+                        </div>
+                        <p>Exerci tation ullamcorper suscipit lobortis aliquip ex ea commodo consequat duis autem vel eum iriure augue duis dolore.</p>
+                        <div class="flex flex-col gap-4">
+                            <div class="flex gap-3 items-center">
+                                <i class="fa-solid fa-check-double text-[#eb6b82]"></i>
+                                <p>Madame Duval was determined to it public.</p>
+                            </div>
+                            <div class="flex gap-3 items-center">
+                                <i class="fa-solid fa-check-double text-[#eb6b82]"></i>
+                                <p>Lobortis aliquip ex ea commodo .</p>
+                            </div>
+                            <div class="flex gap-3 items-center">
+                                <i class="fa-solid fa-check-double text-[#eb6b82]"></i>
+                                <p>Far far away lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-3 mt-5">
+                            <div class="flex items-center gap-3">
+                                <i class="fa-regular fa-folder"></i>
+                                 <p>Get Certificate</p>
+                            </div>
+                            <div class="flex items-center gap-3 text-base">
+                                <i class="fa-solid fa-shield-halved"></i>
+                                 <p>30 Days Money Back Guarantee</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <a class="px-4 py-3 opacity-100 text-black rounded-full bg-[#f4e1e7] text-center border border-primary" href="">
+                                See More Courses
+                            </a>
                         </div>
                     </div>
                 </div>
+
+
+
+
+
                 <div class="lg:py-0 my-5 relative hover:love-[text-primary] max-w-[435px] m-auto group hover:shadow-none shadow-[0px_70px_50px_-20px_rgba(0,0,0,0.07)]  transition-all bg-white duration-300 rounded-lg ">
                     <div class="relative group">
                         <img class="w-full" src="assets/img/card-photo.png" alt="">
@@ -676,7 +741,7 @@
                     <li class="hover:text-primary  font-medium text-lg cursor-pointer " data-filter="technology">Technology</li>
                 </ul>
             </div>
-            <div class="py-7 grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 relative justify-center">
+            <div class="py-7 grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 relative justify-center items-center">
                 <img class="absolute top-[-50px] right-8 md:opacity-80 opacity-20 " src="assets/img/hat.png" alt="">
                 <div class="development filter-item  flex items-center gap-3 p-5 border rounded-full border-primary hover:bg-primary/10 transition-all duration-300 bg-white ">
                     <i class="fa-solid fa-music text-primary p-4 rounded-full bg-primary/10 "></i>
@@ -784,11 +849,13 @@
                 <h1 class="text-[40px] font-normal ">What say Our Success <span class="text-primary font-extrabold">Student</span></h1>
             </div>
             <div class="slider-button flex gap-4 pb-3 !justify-end pr-4 ">
-                <div class="tmPrevBtn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="26" viewBox="0 0 21 21"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M7.499 6.497L3.5 10.499l4 4.001m9-4h-13"/></svg>
-                </div>
-                <div class="tmNextBtn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="26" viewBox="0 0 21 21"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m13.5 6.497l4 4.002l-4 4.001m-9-4h13"/></svg>
+                <div class="second flex gap-4">    
+                    <div class="tmPrevBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="26" viewBox="0 0 21 21"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M7.499 6.497L3.5 10.499l4 4.001m9-4h-13"/></svg>
+                    </div>
+                    <div class="tmNextBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="26" viewBox="0 0 21 21"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m13.5 6.497l4 4.002l-4 4.001m-9-4h13"/></svg>
+                    </div>
                 </div>
             </div>
             <div class="relative py-20 flex justify-center items-center">
@@ -1062,7 +1129,7 @@
                 <img class="absolute top-[-20px] left-[40%] max-w-[350px] z-10"  src="assets/img/footer-shap.png" alt="">
                 <img class="absolute top-[60%] left-[40%] tea opacity-50 md:opacity-100 z-10" src="assets/img/hat.png" alt="">
                 <img class="absolute top-[-100px] right-[0] tea md:opacity-100 sm:opacity-50 opacity-10 z-10" src="assets/img/light.png" alt="">
-                <img class="absolute md:top-[-120px] top-[-300px]  left-[40px] tea lg:opacity-100 opacity-50 z-10" src="assets/img/a-1.png" alt="">
+                <img class="absolute md:top-[-450px] top-[-300px]  left-[40px] tea lg:opacity-100 opacity-50 z-10 rotation" src="assets/img/a-1.png" alt="">
             </div>
         </div>
     </div>
@@ -1114,10 +1181,14 @@
 
 
 
-    
+   
+    <script src="assets/js/jquery-migrate.min.js"></script>
     <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>

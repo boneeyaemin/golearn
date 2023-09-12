@@ -57,6 +57,9 @@ $(document).ready(function(){
         $('body').toggleClass('overflow-hidden');
         });
 
+        // drop-down-manu er icon
+        // $(".h-menu li ul").parents("li").addClass("has-children").append('<i class="fa-solid fa-angle-down down-arrow"></i>');
+
         // 
 
         // slider2
